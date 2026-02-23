@@ -1,0 +1,49 @@
+{
+  "niche": "home-office",
+  "site_url": "https://homeofficesetup.pro",
+  "amazon_tag": "YOUR_ASSOCIATE_TAG",
+  "pinterest_boards": {
+    "setup_ideas": "BOARD_ID_1",
+    "ergonomic": "BOARD_ID_2",
+    "minimalist": "BOARD_ID_3",
+    "budget": "BOARD_ID_4"
+  },
+  "scout": {
+    "min_search_volume": 500,
+    "max_competitor_pins": 500,
+    "min_amazon_rating": 4.0,
+    "min_amazon_reviews": 50
+  },
+  "creator": {
+    "pins_per_week": 35,
+    "image_width": 1000,
+    "image_height": 1500
+  },
+  "seed_keywords": [
+    "home office setup",
+    "ergonomic desk setup",
+    "cozy home office",
+    "minimalist desk",
+    "standing desk setup",
+    "dual monitor setup",
+    "small space home office",
+    "home office ideas 2026",
+    "work from home setup",
+    "gaming desk aesthetic",
+    "home office on a budget",
+    "ergonomic chair home office",
+    "home office lighting",
+    "cable management desk",
+    "home office decor ideas"
+  ],
+  "product_categories": [
+    { "name": "Standing Desks", "amazon_search": "standing desk home office", "avg_price": 400, "commission_rate": 0.03 },
+    { "name": "Ergonomic Chairs", "amazon_search": "ergonomic chair home office", "avg_price": 350, "commission_rate": 0.03 },
+    { "name": "Monitors", "amazon_search": "monitor home office 27 inch", "avg_price": 300, "commission_rate": 0.025 },
+    { "name": "Desk Lamps", "amazon_search": "desk lamp home office LED", "avg_price": 80, "commission_rate": 0.04 },
+    { "name": "Webcams", "amazon_search": "webcam home office 1080p", "avg_price": 100, "commission_rate": 0.04 },
+    { "name": "Headsets", "amazon_search": "headset home office noise cancelling", "avg_price": 200, "commission_rate": 0.03 },
+    { "name": "Desk Accessories", "amazon_search": "desk organizer home office", "avg_price": 40, "commission_rate": 0.04 },
+    { "name": "Monitor Arms", "amazon_search": "monitor arm dual home office", "avg_price": 60, "commission_rate": 0.04 }
+  ]
+}

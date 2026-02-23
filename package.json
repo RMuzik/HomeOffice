@@ -1,0 +1,48 @@
+{
+  "name": "homeoffice-affiliate",
+  "version": "1.0.0",
+  "description": "APEX — Automated Pinterest Affiliate System for Home Office niche",
+  "main": "index.js",
+  "scripts": {
+    "scout": "node agents/scout/index.js",
+    "scout:dry": "node agents/scout/index.js --dry-run",
+    "scout:keywords": "node agents/scout/index.js --keywords",
+    "scout:products": "node agents/scout/index.js --products",
+    "creator": "node agents/creator/index.js",
+    "creator:dry": "node agents/creator/index.js --dry-run",
+    "creator:limit": "node agents/creator/index.js --limit=5",
+    "publish": "node agents/publisher/index.js",
+    "publish:dry": "node agents/publisher/index.js --dry-run",
+    "publish:all": "node agents/publisher/index.js --all",
+    "publish:status": "node agents/publisher/index.js --status",
+    "setup:boards": "node agents/publisher/index.js --list-boards",
+    "tracker": "node agents/tracker/index.js",
+    "tracker:dry": "node agents/tracker/index.js --dry-run",
+    "weekly": "npm run scout && npm run creator && npm run publish && npm run tracker",
+    "weekly:dry": "npm run scout:dry && npm run creator:dry && npm run publish:dry && npm run tracker:dry",
+    "publisher": "node agents/publisher/index.js",
+    "publisher:all": "node agents/publisher/index.js --all",
+    "publisher:dry": "node agents/publisher/index.js --dry-run",
+    "publisher:status": "node agents/publisher/index.js --status",
+    "publisher:list-boards": "node agents/publisher/index.js --list-boards",
+    "publisher:setup-boards": "node agents/publisher/index.js --setup-boards",
+    "pipeline": "npm run scout && npm run creator && npm run publisher"
+  },
+  "keywords": [
+    "pinterest",
+    "affiliate",
+    "automation",
+    "homeoffice"
+  ],
+  "author": "APEX Bot",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "@aws-sdk/client-marketplace-catalog": "^3.995.0",
+    "axios": "^1.13.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "sharp": "^0.33.3"
+  }
+}

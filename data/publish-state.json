@@ -1,0 +1,33 @@
+{
+  "published": {
+    "pin_week1771663008128_d1_1": {
+      "pinterest_id": "1771663449382_b22s94",
+      "published_at": "2026-02-21T08:44:09.382Z",
+      "board": "setup_ideas",
+      "keyword": "best work from home",
+      "type": "best-of-list",
+      "destination_url": "https://homeofficesetup.pro/best-best-work-from-home/?ref=pinterest",
+      "pinterest_url": "https://pinterest.com/pin/1771663449382_b22s94",
+      "scheduled_at": "2026-02-21T10:00:00.000Z",
+      "mock": true
+    },
+    "pin_week1771663008128_d1_2": {
+      "pinterest_id": "1771663750920_01nwd2",
+      "published_at": "2026-02-21T08:49:10.921Z",
+      "board": "ergonomic_office",
+      "keyword": "standing desk setup",
+      "type": "setup-showcase",
+      "destination_url": "https://homeofficesetup.pro/home-office-setup/?ref=pinterest",
+      "pinterest_url": "https://pinterest.com/pin/1771663750920_01nwd2",
+      "scheduled_at": "2026-02-21T14:00:00.000Z",
+      "mock": true
+    }
+  },
+  "failed": {},
+  "stats": {
+    "total_published": 2,
+    "total_failed": 0,
+    "this_week": 2
+  },
+  "last_updated": "2026-02-21T08:49:10.921Z"
+}

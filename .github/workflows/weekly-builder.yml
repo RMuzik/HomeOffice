@@ -1,0 +1,51 @@
+name: 🏗️ Builder — Generate Pages
+
+on:
+  # Déclenché après le CREATOR (lundi 03h UTC)
+  schedule:
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+    inputs:
+      keyword:
+        description: 'Keyword spécifique (optionnel)'
+        required: false
+
+jobs:
+  build-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run BUILDER agent
+        env:
+          AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
+          SITE_DIR: ${{ github.workspace }}/homeoffice-site/src/pages
+        run: |
+          if [ -n "${{ github.event.inputs.keyword }}" ]; then
+            node agents/builder/index.js --keyword="${{ github.event.inputs.keyword }}"
+          else
+            node agents/builder/index.js
+          fi
+
+      - name: Commit generated pages
+        run: |
+          git config user.name "APEX Bot"
+          git config user.email "bot@homeofficesetup.pro"
+          git add homeoffice-site/src/pages/*.astro
+          if git diff --staged --quiet; then
+            echo "✅ No new pages generated"
+          else
+            PAGES=$(git diff --staged --name-only | wc -l)
+            git commit -m "🏗️ BUILDER: ${PAGES} pages générées $(date +%Y-%m-%d)"
+            git push
+            echo "✅ ${PAGES} pages committed"
+          fi

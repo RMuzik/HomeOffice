@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+
+# Données sensibles — ne jamais commiter
+data/associates-export.csv
+
+# Logs et caches
+data/logs/
+*.log
+
+# Archives
+*.tar.gz

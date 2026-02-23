@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-02-21T08:54:06.898Z",
+  "week": "2026-02-16 au 2026-02-22",
+  "summary": {
+    "published": 2,
+    "total_impressions": 1537,
+    "total_saves": 40,
+    "total_outbound_clicks": 22,
+    "total_revenue_eur": 0
+  },
+  "metrics": [
+    {
+      "pin_id": "pin_week1771663008128_d1_1",
+      "pinterest_id": "1771663449382_b22s94",
+      "board": "setup_ideas",
+      "keyword": "best work from home",
+      "type": "best-of-list",
+      "period": {
+        "start": "7d",
+        "end": "today"
+      },
+      "impressions": 825,
+      "saves": 23,
+      "pin_clicks": 35,
+      "outbound_clicks": 12,
+      "source": "mock",
+      "estimated_site_visitors": 12,
+      "estimated_affiliate_clicks": 2,
+      "estimated_sales": 0,
+      "estimated_revenue_eur": 0,
+      "engagement_rate_pct": 7.03,
+      "performance_score": 100,
+      "revenue_config": {
+        "avg_order": 250,
+        "commission": 0.04
+      }
+    },
+    {
+      "pin_id": "pin_week1771663008128_d1_2",
+      "pinterest_id": "1771663750920_01nwd2",
+      "board": "ergonomic_office",
+      "keyword": "standing desk setup",
+      "type": "setup-showcase",
+      "period": {
+        "start": "7d",
+        "end": "today"
+      },
+      "impressions": 712,
+      "saves": 17,
+      "pin_clicks": 23,
+      "outbound_clicks": 10,
+      "source": "mock",
+      "estimated_site_visitors": 10,
+      "estimated_affiliate_clicks": 2,
+      "estimated_sales": 0,
+      "estimated_revenue_eur": 0,
+      "engagement_rate_pct": 5.62,
+      "performance_score": 100,
+      "revenue_config": {
+        "avg_order": 350,
+        "commission": 0.04
+      }
+    }
+  ],
+  "by_type": {
+    "best-of-list": {
+      "count": 1,
+      "avg_impressions": 825,
+      "avg_saves": 23,
+      "avg_clicks": 12,
+      "avg_score": 100
+    },
+    "setup-showcase": {
+      "count": 1,
+      "avg_impressions": 712,
+      "avg_saves": 17,
+      "avg_clicks": 10,
+      "avg_score": 100
+    }
+  },
+  "by_board": {
+    "setup_ideas": {
+      "count": 1,
+      "total_impressions": 825,
+      "total_revenue": 0
+    },
+    "ergonomic_office": {
+      "count": 1,
+      "total_impressions": 712,
+      "total_revenue": 0
+    }
+  },
+  "recommendations": [
+    {
+      "title": "Augmenter les pins \"best-of-list\"",
+      "detail": "Score moyen 100/100 — le meilleur type cette semaine. Allouer 40% du budget contenu."
+    },
+    {
+      "title": "Focus board \"setup_ideas\"",
+      "detail": "0.00€ générés — board le plus rentable. Créer 2 pins supplémentaires."
+    },
+    {
+      "title": "Étendre vers 45 pins/semaine",
+      "detail": "Ajouter 2 boards thématiques (lighting, plants) pour diversifier le reach et atteindre de nouvelles audiences."
+    }
+  ]
+}

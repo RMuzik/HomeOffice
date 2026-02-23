@@ -1,0 +1,2469 @@
+{
+  "generated_at": "2026-02-21T08:36:48.121Z",
+  "agent": "SCOUT",
+  "version": "1.0.0",
+  "keywords": [
+    {
+      "keyword": "home office on a budget",
+      "scores": {
+        "buy_intent": 6.5,
+        "competition": 8,
+        "volume": 9.2,
+        "final": 77.7
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.07,
+        "estimated_yearly_revenue": 0.86,
+        "assumptions": {
+          "clicks_per_month": 12,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "budget-guide"
+      ],
+      "trend": {
+        "keyword": "home office on a budget",
+        "trend_direction": "rising",
+        "volume_score": 6,
+        "competitor_pins": 420,
+        "saturation_score": 3.4,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "HIGH",
+        "pinterest_tags": [
+          "#homeofficeonabudget",
+          "#home_office_on_a_budget",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "best home office setup",
+      "scores": {
+        "buy_intent": 7.5,
+        "competition": 5,
+        "volume": 9.8,
+        "final": 74.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.11,
+        "estimated_yearly_revenue": 1.3,
+        "assumptions": {
+          "clicks_per_month": 18,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "best-of-list",
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "best home office setup",
+        "trend_direction": "rising",
+        "volume_score": 9,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#besthomeofficesetup",
+          "#best_home_office_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "home office ideas 2026",
+      "scores": {
+        "buy_intent": 4.8,
+        "competition": 8,
+        "volume": 9.8,
+        "final": 72.5
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.11,
+        "estimated_yearly_revenue": 1.3,
+        "assumptions": {
+          "clicks_per_month": 18,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "inspiration-collage"
+      ],
+      "trend": {
+        "keyword": "home office ideas 2026",
+        "trend_direction": "seasonal_peak",
+        "volume_score": 9,
+        "competitor_pins": 340,
+        "saturation_score": 3.7,
+        "current_quarter_multiplier": 2,
+        "opportunity_window": "HIGH",
+        "pinterest_tags": [
+          "#homeofficeideas2026",
+          "#home_office_ideas_2026",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "top 10 home office setup",
+      "scores": {
+        "buy_intent": 7,
+        "competition": 5,
+        "volume": 9.8,
+        "final": 72.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.11,
+        "estimated_yearly_revenue": 1.3,
+        "assumptions": {
+          "clicks_per_month": 18,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "best-of-list",
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "top 10 home office setup",
+        "trend_direction": "rising",
+        "volume_score": 9,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#top10homeofficesetup",
+          "#top_10_home_office_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "best desk setup",
+      "scores": {
+        "buy_intent": 7.5,
+        "competition": 5,
+        "volume": 9,
+        "final": 72
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.06,
+        "estimated_yearly_revenue": 0.72,
+        "assumptions": {
+          "clicks_per_month": 10,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "best-of-list",
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "best desk setup",
+        "trend_direction": "unknown",
+        "volume_score": 5,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#bestdesksetup",
+          "#best_desk_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "best work from home",
+      "scores": {
+        "buy_intent": 7.5,
+        "competition": 5,
+        "volume": 9,
+        "final": 72
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.06,
+        "estimated_yearly_revenue": 0.72,
+        "assumptions": {
+          "clicks_per_month": 10,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "best work from home",
+        "trend_direction": "unknown",
+        "volume_score": 5,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#bestworkfromhome",
+          "#best_work_from_home",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "standing desk setup",
+      "scores": {
+        "buy_intent": 7,
+        "competition": 5,
+        "volume": 9.6,
+        "final": 71.8
+      },
+      "revenue_potential": {
+        "avg_order_value": 400,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.38,
+        "estimated_yearly_revenue": 4.61,
+        "assumptions": {
+          "clicks_per_month": 16,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "standing desk setup",
+        "trend_direction": "rising",
+        "volume_score": 8,
+        "competitor_pins": 980,
+        "saturation_score": 2.5,
+        "current_quarter_multiplier": 1.3,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#standingdesksetup",
+          "#standing_desk_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "ergonomic chair home office",
+      "scores": {
+        "buy_intent": 7,
+        "competition": 5,
+        "volume": 9.6,
+        "final": 71.8
+      },
+      "revenue_potential": {
+        "avg_order_value": 350,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.34,
+        "estimated_yearly_revenue": 4.03,
+        "assumptions": {
+          "clicks_per_month": 16,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "setup-showcase",
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "ergonomic chair home office",
+        "trend_direction": "rising",
+        "volume_score": 8,
+        "competitor_pins": 890,
+        "saturation_score": 2.6,
+        "current_quarter_multiplier": 1.3,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#ergonomicchairhomeoffice",
+          "#ergonomic_chair_home_office",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "cable management desk",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 8,
+        "volume": 9.2,
+        "final": 71.7
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.07,
+        "estimated_yearly_revenue": 0.86,
+        "assumptions": {
+          "clicks_per_month": 12,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "setup-showcase",
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "cable management desk",
+        "trend_direction": "rising",
+        "volume_score": 6,
+        "competitor_pins": 280,
+        "saturation_score": 3.9,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "HIGH",
+        "pinterest_tags": [
+          "#cablemanagementdesk",
+          "#cable_management_desk",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "top 10 desk setup",
+      "scores": {
+        "buy_intent": 7,
+        "competition": 5,
+        "volume": 9,
+        "final": 70
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.06,
+        "estimated_yearly_revenue": 0.72,
+        "assumptions": {
+          "clicks_per_month": 10,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "best-of-list",
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "top 10 desk setup",
+        "trend_direction": "unknown",
+        "volume_score": 5,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#top10desksetup",
+          "#top_10_desk_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "top 10 work from home",
+      "scores": {
+        "buy_intent": 7,
+        "competition": 5,
+        "volume": 9,
+        "final": 70
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.06,
+        "estimated_yearly_revenue": 0.72,
+        "assumptions": {
+          "clicks_per_month": 10,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "HIGH",
+      "recommended_pin_types": [
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "top 10 work from home",
+        "trend_direction": "unknown",
+        "volume_score": 5,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#top10workfromhome",
+          "#top_10_work_from_home",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "dual monitor setup",
+      "scores": {
+        "buy_intent": 6.5,
+        "competition": 5,
+        "volume": 9.4,
+        "final": 69.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 300,
+        "commission_rate": 0.025,
+        "estimated_monthly_revenue": 0.21,
+        "estimated_yearly_revenue": 2.52,
+        "assumptions": {
+          "clicks_per_month": 14,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "dual monitor setup",
+        "trend_direction": "stable",
+        "volume_score": 7,
+        "competitor_pins": 760,
+        "saturation_score": 2.8,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#dualmonitorsetup",
+          "#dual_monitor_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "home office setup 2026",
+      "scores": {
+        "buy_intent": 6,
+        "competition": 5,
+        "volume": 9.8,
+        "final": 68.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.11,
+        "estimated_yearly_revenue": 1.3,
+        "assumptions": {
+          "clicks_per_month": 18,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "home office setup 2026",
+        "trend_direction": "rising",
+        "volume_score": 9,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#homeofficesetup2026",
+          "#home_office_setup_2026",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "desk setup 2026",
+      "scores": {
+        "buy_intent": 6,
+        "competition": 5,
+        "volume": 9.4,
+        "final": 67.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.08,
+        "estimated_yearly_revenue": 1.01,
+        "assumptions": {
+          "clicks_per_month": 14,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "desk setup 2026",
+        "trend_direction": "seasonal_peak",
+        "volume_score": 7,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1.8,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#desksetup2026",
+          "#desk_setup_2026",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "work from home 2026",
+      "scores": {
+        "buy_intent": 6,
+        "competition": 5,
+        "volume": 9,
+        "final": 66
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.06,
+        "estimated_yearly_revenue": 0.72,
+        "assumptions": {
+          "clicks_per_month": 10,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase",
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "work from home 2026",
+        "trend_direction": "unknown",
+        "volume_score": 5,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#workfromhome2026",
+          "#work_from_home_2026",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "ergonomic desk setup",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 5,
+        "volume": 9.6,
+        "final": 63.8
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.1,
+        "estimated_yearly_revenue": 1.15,
+        "assumptions": {
+          "clicks_per_month": 16,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "ergonomic desk setup",
+        "trend_direction": "stable",
+        "volume_score": 8,
+        "competitor_pins": 1240,
+        "saturation_score": 2.3,
+        "current_quarter_multiplier": 1.1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#ergonomicdesksetup",
+          "#ergonomic_desk_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "small space home office",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 5,
+        "volume": 9.4,
+        "final": 63.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.08,
+        "estimated_yearly_revenue": 1.01,
+        "assumptions": {
+          "clicks_per_month": 14,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase",
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "small space home office",
+        "trend_direction": "rising",
+        "volume_score": 7,
+        "competitor_pins": 1870,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#smallspacehomeoffice",
+          "#small_space_home_office",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "home office lighting",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 5,
+        "volume": 9.4,
+        "final": 63.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.08,
+        "estimated_yearly_revenue": 1.01,
+        "assumptions": {
+          "clicks_per_month": 14,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase",
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "home office lighting",
+        "trend_direction": "rising",
+        "volume_score": 7,
+        "competitor_pins": 1340,
+        "saturation_score": 2.2,
+        "current_quarter_multiplier": 1.1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#homeofficelighting",
+          "#home_office_lighting",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "home office setup ideas",
+      "scores": {
+        "buy_intent": 4,
+        "competition": 5,
+        "volume": 9.8,
+        "final": 60.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.11,
+        "estimated_yearly_revenue": 1.3,
+        "assumptions": {
+          "clicks_per_month": 18,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "inspiration-collage",
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "home office setup ideas",
+        "trend_direction": "rising",
+        "volume_score": 9,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#homeofficesetupideas",
+          "#home_office_setup_ideas",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "home office setup",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 3,
+        "volume": 9.8,
+        "final": 58.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.11,
+        "estimated_yearly_revenue": 1.3,
+        "assumptions": {
+          "clicks_per_month": 18,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "home office setup",
+        "trend_direction": "rising",
+        "volume_score": 9,
+        "competitor_pins": 8420,
+        "saturation_score": 0.2,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "LOW",
+        "pinterest_tags": [
+          "#homeofficesetup",
+          "#home_office_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "desk setup ideas",
+      "scores": {
+        "buy_intent": 4,
+        "competition": 5,
+        "volume": 9,
+        "final": 58
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.06,
+        "estimated_yearly_revenue": 0.72,
+        "assumptions": {
+          "clicks_per_month": 10,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "inspiration-collage",
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "desk setup ideas",
+        "trend_direction": "unknown",
+        "volume_score": 5,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#desksetupideas",
+          "#desk_setup_ideas",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "work from home ideas",
+      "scores": {
+        "buy_intent": 4,
+        "competition": 5,
+        "volume": 9,
+        "final": 58
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.06,
+        "estimated_yearly_revenue": 0.72,
+        "assumptions": {
+          "clicks_per_month": 10,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "inspiration-collage"
+      ],
+      "trend": {
+        "keyword": "work from home ideas",
+        "trend_direction": "unknown",
+        "volume_score": 5,
+        "competitor_pins": 1920,
+        "saturation_score": 1.8,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "MEDIUM",
+        "pinterest_tags": [
+          "#workfromhomeideas",
+          "#work_from_home_ideas",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "cozy home office",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 3,
+        "volume": 9.6,
+        "final": 57.8
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.1,
+        "estimated_yearly_revenue": 1.15,
+        "assumptions": {
+          "clicks_per_month": 16,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase",
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "cozy home office",
+        "trend_direction": "rising",
+        "volume_score": 8,
+        "competitor_pins": 3890,
+        "saturation_score": 1,
+        "current_quarter_multiplier": 1.3,
+        "opportunity_window": "LOW",
+        "pinterest_tags": [
+          "#cozyhomeoffice",
+          "#cozy_home_office",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "work from home setup",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 3,
+        "volume": 9.6,
+        "final": 57.8
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.1,
+        "estimated_yearly_revenue": 1.15,
+        "assumptions": {
+          "clicks_per_month": 16,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "work from home setup",
+        "trend_direction": "stable",
+        "volume_score": 8,
+        "competitor_pins": 2100,
+        "saturation_score": 1.7,
+        "current_quarter_multiplier": 1.3,
+        "opportunity_window": "LOW",
+        "pinterest_tags": [
+          "#workfromhomesetup",
+          "#work_from_home_setup",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "minimalist desk",
+      "scores": {
+        "buy_intent": 5,
+        "competition": 3,
+        "volume": 9.4,
+        "final": 57.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.08,
+        "estimated_yearly_revenue": 1.01,
+        "assumptions": {
+          "clicks_per_month": 14,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase",
+        "best-of-list"
+      ],
+      "trend": {
+        "keyword": "minimalist desk",
+        "trend_direction": "rising",
+        "volume_score": 7,
+        "competitor_pins": 4230,
+        "saturation_score": 0.9,
+        "current_quarter_multiplier": 1.1,
+        "opportunity_window": "LOW",
+        "pinterest_tags": [
+          "#minimalistdesk",
+          "#minimalist_desk",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "home office decor ideas",
+      "scores": {
+        "buy_intent": 4,
+        "competition": 3,
+        "volume": 9.6,
+        "final": 53.8
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.1,
+        "estimated_yearly_revenue": 1.15,
+        "assumptions": {
+          "clicks_per_month": 16,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "inspiration-collage"
+      ],
+      "trend": {
+        "keyword": "home office decor ideas",
+        "trend_direction": "stable",
+        "volume_score": 8,
+        "competitor_pins": 3200,
+        "saturation_score": 1.2,
+        "current_quarter_multiplier": 1.2,
+        "opportunity_window": "LOW",
+        "pinterest_tags": [
+          "#homeofficedecorideas",
+          "#home_office_decor_ideas",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    },
+    {
+      "keyword": "gaming desk aesthetic",
+      "scores": {
+        "buy_intent": 3.5,
+        "competition": 3,
+        "volume": 9.4,
+        "final": 51.3
+      },
+      "revenue_potential": {
+        "avg_order_value": 100,
+        "commission_rate": 0.03,
+        "estimated_monthly_revenue": 0.08,
+        "estimated_yearly_revenue": 1.01,
+        "assumptions": {
+          "clicks_per_month": 14,
+          "site_conversion": "2%",
+          "affiliate_conversion": "10%"
+        }
+      },
+      "priority": "MEDIUM",
+      "recommended_pin_types": [
+        "setup-showcase"
+      ],
+      "trend": {
+        "keyword": "gaming desk aesthetic",
+        "trend_direction": "rising",
+        "volume_score": 7,
+        "competitor_pins": 5600,
+        "saturation_score": 0.6,
+        "current_quarter_multiplier": 1,
+        "opportunity_window": "LOW",
+        "pinterest_tags": [
+          "#gamingdeskaesthetic",
+          "#gaming_desk_aesthetic",
+          "#homeoffice",
+          "#workfromhome",
+          "#homeofficesetup",
+          "#desksetup",
+          "#productivity",
+          "#remotework",
+          "#officedecor",
+          "#minimalistoffice"
+        ]
+      }
+    }
+  ],
+  "prioritized": {
+    "high": [
+      {
+        "keyword": "home office on a budget",
+        "scores": {
+          "buy_intent": 6.5,
+          "competition": 8,
+          "volume": 9.2,
+          "final": 77.7
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.07,
+          "estimated_yearly_revenue": 0.86,
+          "assumptions": {
+            "clicks_per_month": 12,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "budget-guide"
+        ],
+        "trend": {
+          "keyword": "home office on a budget",
+          "trend_direction": "rising",
+          "volume_score": 6,
+          "competitor_pins": 420,
+          "saturation_score": 3.4,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "HIGH",
+          "pinterest_tags": [
+            "#homeofficeonabudget",
+            "#home_office_on_a_budget",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "best home office setup",
+        "scores": {
+          "buy_intent": 7.5,
+          "competition": 5,
+          "volume": 9.8,
+          "final": 74.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.11,
+          "estimated_yearly_revenue": 1.3,
+          "assumptions": {
+            "clicks_per_month": 18,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "best-of-list",
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "best home office setup",
+          "trend_direction": "rising",
+          "volume_score": 9,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#besthomeofficesetup",
+            "#best_home_office_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "home office ideas 2026",
+        "scores": {
+          "buy_intent": 4.8,
+          "competition": 8,
+          "volume": 9.8,
+          "final": 72.5
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.11,
+          "estimated_yearly_revenue": 1.3,
+          "assumptions": {
+            "clicks_per_month": 18,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "inspiration-collage"
+        ],
+        "trend": {
+          "keyword": "home office ideas 2026",
+          "trend_direction": "seasonal_peak",
+          "volume_score": 9,
+          "competitor_pins": 340,
+          "saturation_score": 3.7,
+          "current_quarter_multiplier": 2,
+          "opportunity_window": "HIGH",
+          "pinterest_tags": [
+            "#homeofficeideas2026",
+            "#home_office_ideas_2026",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "top 10 home office setup",
+        "scores": {
+          "buy_intent": 7,
+          "competition": 5,
+          "volume": 9.8,
+          "final": 72.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.11,
+          "estimated_yearly_revenue": 1.3,
+          "assumptions": {
+            "clicks_per_month": 18,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "best-of-list",
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "top 10 home office setup",
+          "trend_direction": "rising",
+          "volume_score": 9,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#top10homeofficesetup",
+            "#top_10_home_office_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "best desk setup",
+        "scores": {
+          "buy_intent": 7.5,
+          "competition": 5,
+          "volume": 9,
+          "final": 72
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.06,
+          "estimated_yearly_revenue": 0.72,
+          "assumptions": {
+            "clicks_per_month": 10,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "best-of-list",
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "best desk setup",
+          "trend_direction": "unknown",
+          "volume_score": 5,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#bestdesksetup",
+            "#best_desk_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "best work from home",
+        "scores": {
+          "buy_intent": 7.5,
+          "competition": 5,
+          "volume": 9,
+          "final": 72
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.06,
+          "estimated_yearly_revenue": 0.72,
+          "assumptions": {
+            "clicks_per_month": 10,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "best work from home",
+          "trend_direction": "unknown",
+          "volume_score": 5,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#bestworkfromhome",
+            "#best_work_from_home",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "standing desk setup",
+        "scores": {
+          "buy_intent": 7,
+          "competition": 5,
+          "volume": 9.6,
+          "final": 71.8
+        },
+        "revenue_potential": {
+          "avg_order_value": 400,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.38,
+          "estimated_yearly_revenue": 4.61,
+          "assumptions": {
+            "clicks_per_month": 16,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "standing desk setup",
+          "trend_direction": "rising",
+          "volume_score": 8,
+          "competitor_pins": 980,
+          "saturation_score": 2.5,
+          "current_quarter_multiplier": 1.3,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#standingdesksetup",
+            "#standing_desk_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "ergonomic chair home office",
+        "scores": {
+          "buy_intent": 7,
+          "competition": 5,
+          "volume": 9.6,
+          "final": 71.8
+        },
+        "revenue_potential": {
+          "avg_order_value": 350,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.34,
+          "estimated_yearly_revenue": 4.03,
+          "assumptions": {
+            "clicks_per_month": 16,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "setup-showcase",
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "ergonomic chair home office",
+          "trend_direction": "rising",
+          "volume_score": 8,
+          "competitor_pins": 890,
+          "saturation_score": 2.6,
+          "current_quarter_multiplier": 1.3,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#ergonomicchairhomeoffice",
+            "#ergonomic_chair_home_office",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "cable management desk",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 8,
+          "volume": 9.2,
+          "final": 71.7
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.07,
+          "estimated_yearly_revenue": 0.86,
+          "assumptions": {
+            "clicks_per_month": 12,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "setup-showcase",
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "cable management desk",
+          "trend_direction": "rising",
+          "volume_score": 6,
+          "competitor_pins": 280,
+          "saturation_score": 3.9,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "HIGH",
+          "pinterest_tags": [
+            "#cablemanagementdesk",
+            "#cable_management_desk",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "top 10 desk setup",
+        "scores": {
+          "buy_intent": 7,
+          "competition": 5,
+          "volume": 9,
+          "final": 70
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.06,
+          "estimated_yearly_revenue": 0.72,
+          "assumptions": {
+            "clicks_per_month": 10,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "best-of-list",
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "top 10 desk setup",
+          "trend_direction": "unknown",
+          "volume_score": 5,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#top10desksetup",
+            "#top_10_desk_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "top 10 work from home",
+        "scores": {
+          "buy_intent": 7,
+          "competition": 5,
+          "volume": 9,
+          "final": 70
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.06,
+          "estimated_yearly_revenue": 0.72,
+          "assumptions": {
+            "clicks_per_month": 10,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "HIGH",
+        "recommended_pin_types": [
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "top 10 work from home",
+          "trend_direction": "unknown",
+          "volume_score": 5,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#top10workfromhome",
+            "#top_10_work_from_home",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      }
+    ],
+    "medium": [
+      {
+        "keyword": "dual monitor setup",
+        "scores": {
+          "buy_intent": 6.5,
+          "competition": 5,
+          "volume": 9.4,
+          "final": 69.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 300,
+          "commission_rate": 0.025,
+          "estimated_monthly_revenue": 0.21,
+          "estimated_yearly_revenue": 2.52,
+          "assumptions": {
+            "clicks_per_month": 14,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "dual monitor setup",
+          "trend_direction": "stable",
+          "volume_score": 7,
+          "competitor_pins": 760,
+          "saturation_score": 2.8,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#dualmonitorsetup",
+            "#dual_monitor_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "home office setup 2026",
+        "scores": {
+          "buy_intent": 6,
+          "competition": 5,
+          "volume": 9.8,
+          "final": 68.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.11,
+          "estimated_yearly_revenue": 1.3,
+          "assumptions": {
+            "clicks_per_month": 18,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "home office setup 2026",
+          "trend_direction": "rising",
+          "volume_score": 9,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#homeofficesetup2026",
+            "#home_office_setup_2026",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "desk setup 2026",
+        "scores": {
+          "buy_intent": 6,
+          "competition": 5,
+          "volume": 9.4,
+          "final": 67.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.08,
+          "estimated_yearly_revenue": 1.01,
+          "assumptions": {
+            "clicks_per_month": 14,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "desk setup 2026",
+          "trend_direction": "seasonal_peak",
+          "volume_score": 7,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1.8,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#desksetup2026",
+            "#desk_setup_2026",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "work from home 2026",
+        "scores": {
+          "buy_intent": 6,
+          "competition": 5,
+          "volume": 9,
+          "final": 66
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.06,
+          "estimated_yearly_revenue": 0.72,
+          "assumptions": {
+            "clicks_per_month": 10,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase",
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "work from home 2026",
+          "trend_direction": "unknown",
+          "volume_score": 5,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#workfromhome2026",
+            "#work_from_home_2026",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "ergonomic desk setup",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 5,
+          "volume": 9.6,
+          "final": 63.8
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.1,
+          "estimated_yearly_revenue": 1.15,
+          "assumptions": {
+            "clicks_per_month": 16,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "ergonomic desk setup",
+          "trend_direction": "stable",
+          "volume_score": 8,
+          "competitor_pins": 1240,
+          "saturation_score": 2.3,
+          "current_quarter_multiplier": 1.1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#ergonomicdesksetup",
+            "#ergonomic_desk_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "small space home office",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 5,
+          "volume": 9.4,
+          "final": 63.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.08,
+          "estimated_yearly_revenue": 1.01,
+          "assumptions": {
+            "clicks_per_month": 14,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase",
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "small space home office",
+          "trend_direction": "rising",
+          "volume_score": 7,
+          "competitor_pins": 1870,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#smallspacehomeoffice",
+            "#small_space_home_office",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "home office lighting",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 5,
+          "volume": 9.4,
+          "final": 63.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.08,
+          "estimated_yearly_revenue": 1.01,
+          "assumptions": {
+            "clicks_per_month": 14,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase",
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "home office lighting",
+          "trend_direction": "rising",
+          "volume_score": 7,
+          "competitor_pins": 1340,
+          "saturation_score": 2.2,
+          "current_quarter_multiplier": 1.1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#homeofficelighting",
+            "#home_office_lighting",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "home office setup ideas",
+        "scores": {
+          "buy_intent": 4,
+          "competition": 5,
+          "volume": 9.8,
+          "final": 60.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.11,
+          "estimated_yearly_revenue": 1.3,
+          "assumptions": {
+            "clicks_per_month": 18,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "inspiration-collage",
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "home office setup ideas",
+          "trend_direction": "rising",
+          "volume_score": 9,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#homeofficesetupideas",
+            "#home_office_setup_ideas",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "home office setup",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 3,
+          "volume": 9.8,
+          "final": 58.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.11,
+          "estimated_yearly_revenue": 1.3,
+          "assumptions": {
+            "clicks_per_month": 18,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "home office setup",
+          "trend_direction": "rising",
+          "volume_score": 9,
+          "competitor_pins": 8420,
+          "saturation_score": 0.2,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "LOW",
+          "pinterest_tags": [
+            "#homeofficesetup",
+            "#home_office_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "desk setup ideas",
+        "scores": {
+          "buy_intent": 4,
+          "competition": 5,
+          "volume": 9,
+          "final": 58
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.06,
+          "estimated_yearly_revenue": 0.72,
+          "assumptions": {
+            "clicks_per_month": 10,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "inspiration-collage",
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "desk setup ideas",
+          "trend_direction": "unknown",
+          "volume_score": 5,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#desksetupideas",
+            "#desk_setup_ideas",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "work from home ideas",
+        "scores": {
+          "buy_intent": 4,
+          "competition": 5,
+          "volume": 9,
+          "final": 58
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.06,
+          "estimated_yearly_revenue": 0.72,
+          "assumptions": {
+            "clicks_per_month": 10,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "inspiration-collage"
+        ],
+        "trend": {
+          "keyword": "work from home ideas",
+          "trend_direction": "unknown",
+          "volume_score": 5,
+          "competitor_pins": 1920,
+          "saturation_score": 1.8,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "MEDIUM",
+          "pinterest_tags": [
+            "#workfromhomeideas",
+            "#work_from_home_ideas",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "cozy home office",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 3,
+          "volume": 9.6,
+          "final": 57.8
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.1,
+          "estimated_yearly_revenue": 1.15,
+          "assumptions": {
+            "clicks_per_month": 16,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase",
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "cozy home office",
+          "trend_direction": "rising",
+          "volume_score": 8,
+          "competitor_pins": 3890,
+          "saturation_score": 1,
+          "current_quarter_multiplier": 1.3,
+          "opportunity_window": "LOW",
+          "pinterest_tags": [
+            "#cozyhomeoffice",
+            "#cozy_home_office",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "work from home setup",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 3,
+          "volume": 9.6,
+          "final": 57.8
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.1,
+          "estimated_yearly_revenue": 1.15,
+          "assumptions": {
+            "clicks_per_month": 16,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "work from home setup",
+          "trend_direction": "stable",
+          "volume_score": 8,
+          "competitor_pins": 2100,
+          "saturation_score": 1.7,
+          "current_quarter_multiplier": 1.3,
+          "opportunity_window": "LOW",
+          "pinterest_tags": [
+            "#workfromhomesetup",
+            "#work_from_home_setup",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "minimalist desk",
+        "scores": {
+          "buy_intent": 5,
+          "competition": 3,
+          "volume": 9.4,
+          "final": 57.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.08,
+          "estimated_yearly_revenue": 1.01,
+          "assumptions": {
+            "clicks_per_month": 14,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase",
+          "best-of-list"
+        ],
+        "trend": {
+          "keyword": "minimalist desk",
+          "trend_direction": "rising",
+          "volume_score": 7,
+          "competitor_pins": 4230,
+          "saturation_score": 0.9,
+          "current_quarter_multiplier": 1.1,
+          "opportunity_window": "LOW",
+          "pinterest_tags": [
+            "#minimalistdesk",
+            "#minimalist_desk",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "home office decor ideas",
+        "scores": {
+          "buy_intent": 4,
+          "competition": 3,
+          "volume": 9.6,
+          "final": 53.8
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.1,
+          "estimated_yearly_revenue": 1.15,
+          "assumptions": {
+            "clicks_per_month": 16,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "inspiration-collage"
+        ],
+        "trend": {
+          "keyword": "home office decor ideas",
+          "trend_direction": "stable",
+          "volume_score": 8,
+          "competitor_pins": 3200,
+          "saturation_score": 1.2,
+          "current_quarter_multiplier": 1.2,
+          "opportunity_window": "LOW",
+          "pinterest_tags": [
+            "#homeofficedecorideas",
+            "#home_office_decor_ideas",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      },
+      {
+        "keyword": "gaming desk aesthetic",
+        "scores": {
+          "buy_intent": 3.5,
+          "competition": 3,
+          "volume": 9.4,
+          "final": 51.3
+        },
+        "revenue_potential": {
+          "avg_order_value": 100,
+          "commission_rate": 0.03,
+          "estimated_monthly_revenue": 0.08,
+          "estimated_yearly_revenue": 1.01,
+          "assumptions": {
+            "clicks_per_month": 14,
+            "site_conversion": "2%",
+            "affiliate_conversion": "10%"
+          }
+        },
+        "priority": "MEDIUM",
+        "recommended_pin_types": [
+          "setup-showcase"
+        ],
+        "trend": {
+          "keyword": "gaming desk aesthetic",
+          "trend_direction": "rising",
+          "volume_score": 7,
+          "competitor_pins": 5600,
+          "saturation_score": 0.6,
+          "current_quarter_multiplier": 1,
+          "opportunity_window": "LOW",
+          "pinterest_tags": [
+            "#gamingdeskaesthetic",
+            "#gaming_desk_aesthetic",
+            "#homeoffice",
+            "#workfromhome",
+            "#homeofficesetup",
+            "#desksetup",
+            "#productivity",
+            "#remotework",
+            "#officedecor",
+            "#minimalistoffice"
+          ]
+        }
+      }
+    ],
+    "low": []
+  },
+  "total": 27
+}

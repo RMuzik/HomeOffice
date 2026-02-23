@@ -1,0 +1,695 @@
+{
+  "generated_at": "2026-02-21T08:36:48.128Z",
+  "agent": "SCOUT",
+  "version": "1.0.0",
+  "queue": {
+    "week_start": "2026-02-16",
+    "total_pins": 35,
+    "daily_plan": [
+      {
+        "day": 1,
+        "pins": [
+          {
+            "pin_id": "pin_week1771663008128_d1_1",
+            "day": 1,
+            "slot": 1,
+            "type": "best-of-list",
+            "keyword": "best work from home",
+            "target_product": {
+              "asin": "B07Z9WQVNV",
+              "title": "HAG Capisco Ergonomic Office Chair",
+              "price": 899,
+              "affiliate_url": "https://www.amazon.fr/dp/B07Z9WQVNV?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "09:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d1_2",
+            "day": 1,
+            "slot": 2,
+            "type": "setup-showcase",
+            "keyword": "standing desk setup",
+            "target_product": {
+              "asin": "B09JGZRXMB",
+              "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
+              "price": 449,
+              "affiliate_url": "https://www.amazon.fr/dp/B09JGZRXMB?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "12:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d1_3",
+            "day": 1,
+            "slot": 3,
+            "type": "product-review",
+            "keyword": "ergonomic chair home office",
+            "target_product": {
+              "asin": "B09NK5DFGG",
+              "title": "Dell UltraSharp U2722D 27\" QHD",
+              "price": 379,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NK5DFGG?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "19:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d1_4",
+            "day": 1,
+            "slot": 4,
+            "type": "how-to",
+            "keyword": "cable management desk",
+            "target_product": {
+              "asin": "B07QLPVTRZ",
+              "title": "BenQ ScreenBar Halo Monitor Light",
+              "price": 179.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B07QLPVTRZ?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "21:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d1_5",
+            "day": 1,
+            "slot": 5,
+            "type": "budget-guide",
+            "keyword": "top 10 desk setup",
+            "target_product": {
+              "asin": "B08DCMKX7C",
+              "title": "Elgato Key Light Air Professional",
+              "price": 99.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08DCMKX7C?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "22:00"
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "pins": [
+          {
+            "pin_id": "pin_week1771663008128_d2_1",
+            "day": 2,
+            "slot": 1,
+            "type": "best-of-list",
+            "keyword": "home office on a budget",
+            "target_product": {
+              "asin": "B08D9GPMDK",
+              "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+              "price": 429.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "budget_office",
+            "status": "pending",
+            "scheduled_time": "08:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d2_2",
+            "day": 2,
+            "slot": 2,
+            "type": "setup-showcase",
+            "keyword": "best home office setup",
+            "target_product": {
+              "asin": "B09NQKFMF8",
+              "title": "Autonomous SmartDesk Pro 152x76cm",
+              "price": 549,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "12:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d2_3",
+            "day": 2,
+            "slot": 3,
+            "type": "product-review",
+            "keyword": "home office ideas 2026",
+            "target_product": {
+              "asin": "B094KFHK7N",
+              "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
+              "price": 299,
+              "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "20:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d2_4",
+            "day": 2,
+            "slot": 4,
+            "type": "how-to",
+            "keyword": "top 10 home office setup",
+            "target_product": {
+              "asin": "B08D9GPMDK",
+              "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+              "price": 429.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "21:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d2_5",
+            "day": 2,
+            "slot": 5,
+            "type": "budget-guide",
+            "keyword": "best desk setup",
+            "target_product": {
+              "asin": "B09NQKFMF8",
+              "title": "Autonomous SmartDesk Pro 152x76cm",
+              "price": 549,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "22:00"
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "pins": [
+          {
+            "pin_id": "pin_week1771663008128_d3_1",
+            "day": 3,
+            "slot": 1,
+            "type": "best-of-list",
+            "keyword": "best work from home",
+            "target_product": {
+              "asin": "B08D9GPMDK",
+              "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+              "price": 429.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "09:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d3_2",
+            "day": 3,
+            "slot": 2,
+            "type": "setup-showcase",
+            "keyword": "standing desk setup",
+            "target_product": {
+              "asin": "B09NQKFMF8",
+              "title": "Autonomous SmartDesk Pro 152x76cm",
+              "price": 549,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "13:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d3_3",
+            "day": 3,
+            "slot": 3,
+            "type": "product-review",
+            "keyword": "ergonomic chair home office",
+            "target_product": {
+              "asin": "B094KFHK7N",
+              "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
+              "price": 299,
+              "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "19:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d3_4",
+            "day": 3,
+            "slot": 4,
+            "type": "how-to",
+            "keyword": "cable management desk",
+            "target_product": {
+              "asin": "B09HFPV76X",
+              "title": "Secretlab TITAN Evo 2022 Ergonomic Chair",
+              "price": 499,
+              "affiliate_url": "https://www.amazon.fr/dp/B09HFPV76X?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "21:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d3_5",
+            "day": 3,
+            "slot": 5,
+            "type": "budget-guide",
+            "keyword": "top 10 desk setup",
+            "target_product": {
+              "asin": "B08FKWD1T1",
+              "title": "Ergohuman Basic ME7ERG Mesh Chair",
+              "price": 389,
+              "affiliate_url": "https://www.amazon.fr/dp/B08FKWD1T1?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "22:00"
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "pins": [
+          {
+            "pin_id": "pin_week1771663008128_d4_1",
+            "day": 4,
+            "slot": 1,
+            "type": "best-of-list",
+            "keyword": "home office on a budget",
+            "target_product": {
+              "asin": "B07Z9WQVNV",
+              "title": "HAG Capisco Ergonomic Office Chair",
+              "price": 899,
+              "affiliate_url": "https://www.amazon.fr/dp/B07Z9WQVNV?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "budget_office",
+            "status": "pending",
+            "scheduled_time": "08:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d4_2",
+            "day": 4,
+            "slot": 2,
+            "type": "setup-showcase",
+            "keyword": "best home office setup",
+            "target_product": {
+              "asin": "B09JGZRXMB",
+              "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
+              "price": 449,
+              "affiliate_url": "https://www.amazon.fr/dp/B09JGZRXMB?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "12:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d4_3",
+            "day": 4,
+            "slot": 3,
+            "type": "product-review",
+            "keyword": "home office ideas 2026",
+            "target_product": {
+              "asin": "B09NK5DFGG",
+              "title": "Dell UltraSharp U2722D 27\" QHD",
+              "price": 379,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NK5DFGG?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "19:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d4_4",
+            "day": 4,
+            "slot": 4,
+            "type": "how-to",
+            "keyword": "top 10 home office setup",
+            "target_product": {
+              "asin": "B07QLPVTRZ",
+              "title": "BenQ ScreenBar Halo Monitor Light",
+              "price": 179.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B07QLPVTRZ?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "21:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d4_5",
+            "day": 4,
+            "slot": 5,
+            "type": "budget-guide",
+            "keyword": "best desk setup",
+            "target_product": {
+              "asin": "B08DCMKX7C",
+              "title": "Elgato Key Light Air Professional",
+              "price": 99.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08DCMKX7C?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "22:00"
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "pins": [
+          {
+            "pin_id": "pin_week1771663008128_d5_1",
+            "day": 5,
+            "slot": 1,
+            "type": "best-of-list",
+            "keyword": "best work from home",
+            "target_product": {
+              "asin": "B08D9GPMDK",
+              "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+              "price": 429.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "09:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d5_2",
+            "day": 5,
+            "slot": 2,
+            "type": "setup-showcase",
+            "keyword": "standing desk setup",
+            "target_product": {
+              "asin": "B09NQKFMF8",
+              "title": "Autonomous SmartDesk Pro 152x76cm",
+              "price": 549,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "12:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d5_3",
+            "day": 5,
+            "slot": 3,
+            "type": "product-review",
+            "keyword": "ergonomic chair home office",
+            "target_product": {
+              "asin": "B094KFHK7N",
+              "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
+              "price": 299,
+              "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "18:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d5_4",
+            "day": 5,
+            "slot": 4,
+            "type": "how-to",
+            "keyword": "cable management desk",
+            "target_product": {
+              "asin": "B08D9GPMDK",
+              "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+              "price": 429.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "20:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d5_5",
+            "day": 5,
+            "slot": 5,
+            "type": "budget-guide",
+            "keyword": "top 10 desk setup",
+            "target_product": {
+              "asin": "B09NQKFMF8",
+              "title": "Autonomous SmartDesk Pro 152x76cm",
+              "price": 549,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "21:00"
+          }
+        ]
+      },
+      {
+        "day": 6,
+        "pins": [
+          {
+            "pin_id": "pin_week1771663008128_d6_1",
+            "day": 6,
+            "slot": 1,
+            "type": "best-of-list",
+            "keyword": "home office on a budget",
+            "target_product": {
+              "asin": "B08D9GPMDK",
+              "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+              "price": 429.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "budget_office",
+            "status": "pending",
+            "scheduled_time": "10:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d6_2",
+            "day": 6,
+            "slot": 2,
+            "type": "setup-showcase",
+            "keyword": "best home office setup",
+            "target_product": {
+              "asin": "B09NQKFMF8",
+              "title": "Autonomous SmartDesk Pro 152x76cm",
+              "price": 549,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "14:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d6_3",
+            "day": 6,
+            "slot": 3,
+            "type": "product-review",
+            "keyword": "home office ideas 2026",
+            "target_product": {
+              "asin": "B094KFHK7N",
+              "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
+              "price": 299,
+              "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "18:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d6_4",
+            "day": 6,
+            "slot": 4,
+            "type": "how-to",
+            "keyword": "top 10 home office setup",
+            "target_product": {
+              "asin": "B09HFPV76X",
+              "title": "Secretlab TITAN Evo 2022 Ergonomic Chair",
+              "price": 499,
+              "affiliate_url": "https://www.amazon.fr/dp/B09HFPV76X?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "20:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d6_5",
+            "day": 6,
+            "slot": 5,
+            "type": "budget-guide",
+            "keyword": "best desk setup",
+            "target_product": {
+              "asin": "B08FKWD1T1",
+              "title": "Ergohuman Basic ME7ERG Mesh Chair",
+              "price": 389,
+              "affiliate_url": "https://www.amazon.fr/dp/B08FKWD1T1?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "21:00"
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "pins": [
+          {
+            "pin_id": "pin_week1771663008128_d7_1",
+            "day": 7,
+            "slot": 1,
+            "type": "best-of-list",
+            "keyword": "best work from home",
+            "target_product": {
+              "asin": "B07Z9WQVNV",
+              "title": "HAG Capisco Ergonomic Office Chair",
+              "price": 899,
+              "affiliate_url": "https://www.amazon.fr/dp/B07Z9WQVNV?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "11:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d7_2",
+            "day": 7,
+            "slot": 2,
+            "type": "setup-showcase",
+            "keyword": "standing desk setup",
+            "target_product": {
+              "asin": "B09JGZRXMB",
+              "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
+              "price": 449,
+              "affiliate_url": "https://www.amazon.fr/dp/B09JGZRXMB?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "15:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d7_3",
+            "day": 7,
+            "slot": 3,
+            "type": "product-review",
+            "keyword": "ergonomic chair home office",
+            "target_product": {
+              "asin": "B09NK5DFGG",
+              "title": "Dell UltraSharp U2722D 27\" QHD",
+              "price": 379,
+              "affiliate_url": "https://www.amazon.fr/dp/B09NK5DFGG?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "ergonomic_office",
+            "status": "pending",
+            "scheduled_time": "19:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d7_4",
+            "day": 7,
+            "slot": 4,
+            "type": "how-to",
+            "keyword": "cable management desk",
+            "target_product": {
+              "asin": "B07QLPVTRZ",
+              "title": "BenQ ScreenBar Halo Monitor Light",
+              "price": 179.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B07QLPVTRZ?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "21:00"
+          },
+          {
+            "pin_id": "pin_week1771663008128_d7_5",
+            "day": 7,
+            "slot": 5,
+            "type": "budget-guide",
+            "keyword": "top 10 desk setup",
+            "target_product": {
+              "asin": "B08DCMKX7C",
+              "title": "Elgato Key Light Air Professional",
+              "price": 99.99,
+              "affiliate_url": "https://www.amazon.fr/dp/B08DCMKX7C?tag=YOUR_ASSOCIATE_TAG"
+            },
+            "board": "setup_ideas",
+            "status": "pending",
+            "scheduled_time": "22:00"
+          }
+        ]
+      }
+    ],
+    "priority_keywords": [
+      "home office on a budget",
+      "best home office setup",
+      "home office ideas 2026",
+      "top 10 home office setup",
+      "best desk setup",
+      "best work from home",
+      "standing desk setup",
+      "ergonomic chair home office",
+      "cable management desk",
+      "top 10 desk setup"
+    ],
+    "featured_products": [
+      {
+        "asin": "B08D9GPMDK",
+        "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+        "category": "Standing Desks"
+      },
+      {
+        "asin": "B09NQKFMF8",
+        "title": "Autonomous SmartDesk Pro 152x76cm",
+        "category": "Standing Desks"
+      },
+      {
+        "asin": "B094KFHK7N",
+        "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
+        "category": "Standing Desks"
+      },
+      {
+        "asin": "B09HFPV76X",
+        "title": "Secretlab TITAN Evo 2022 Ergonomic Chair",
+        "category": "Ergonomic Chairs"
+      },
+      {
+        "asin": "B08FKWD1T1",
+        "title": "Ergohuman Basic ME7ERG Mesh Chair",
+        "category": "Ergonomic Chairs"
+      },
+      {
+        "asin": "B07Z9WQVNV",
+        "title": "HAG Capisco Ergonomic Office Chair",
+        "category": "Ergonomic Chairs"
+      },
+      {
+        "asin": "B09JGZRXMB",
+        "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
+        "category": "Monitors"
+      },
+      {
+        "asin": "B09NK5DFGG",
+        "title": "Dell UltraSharp U2722D 27\" QHD",
+        "category": "Monitors"
+      },
+      {
+        "asin": "B07QLPVTRZ",
+        "title": "BenQ ScreenBar Halo Monitor Light",
+        "category": "Desk Lamps"
+      },
+      {
+        "asin": "B08DCMKX7C",
+        "title": "Elgato Key Light Air Professional",
+        "category": "Desk Lamps"
+      },
+      {
+        "asin": "B08D9GPMDK",
+        "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+        "category": "Webcams"
+      },
+      {
+        "asin": "B09NQKFMF8",
+        "title": "Autonomous SmartDesk Pro 152x76cm",
+        "category": "Webcams"
+      },
+      {
+        "asin": "B094KFHK7N",
+        "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
+        "category": "Webcams"
+      },
+      {
+        "asin": "B08D9GPMDK",
+        "title": "Flexispot E7 Pro Standing Desk 140x70cm",
+        "category": "Headsets"
+      },
+      {
+        "asin": "B09NQKFMF8",
+        "title": "Autonomous SmartDesk Pro 152x76cm",
+        "category": "Headsets"
+      }
+    ]
+  }
+}

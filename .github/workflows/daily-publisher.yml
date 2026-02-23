@@ -1,0 +1,78 @@
+name: 📤 PUBLISHER — Daily Pinterest Publishing
+
+on:
+  # Publie chaque jour aux heures de pic (UTC = Paris - 1h hiver, -2h été)
+  schedule:
+    - cron: '0 8 * * *'   # 09h Paris (lun-ven)
+    - cron: '0 11 * * *'  # 12h Paris
+    - cron: '0 17 * * *'  # 18h Paris
+    - cron: '0 19 * * *'  # 20h Paris
+    - cron: '0 20 * * *'  # 21h Paris
+
+  # Déclenchement manuel
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Mode de publication'
+        required: false
+        default: 'today'
+        type: choice
+        options:
+          - today
+          - all
+          - dry-run
+          - status
+
+jobs:
+  publish:
+    name: 📤 Publish Pinterest Pins
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: 📤 Publish Pins
+        env:
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          PINTEREST_BOARD_SETUP: ${{ secrets.PINTEREST_BOARD_SETUP }}
+          PINTEREST_BOARD_ERGO: ${{ secrets.PINTEREST_BOARD_ERGO }}
+          PINTEREST_BOARD_MINI: ${{ secrets.PINTEREST_BOARD_MINI }}
+          PINTEREST_BOARD_BUDGET: ${{ secrets.PINTEREST_BOARD_BUDGET }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          MODE="${{ github.event.inputs.mode || 'today' }}"
+          case $MODE in
+            all)       node agents/publisher/index.js --all ;;
+            dry-run)   node agents/publisher/index.js --dry-run ;;
+            status)    node agents/publisher/index.js --status ;;
+            *)         node agents/publisher/index.js ;;
+          esac
+
+      - name: 💾 Save publish state
+        run: |
+          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.name "APEX Bot"
+          git add data/publish-state.json data/logs/ || true
+          git diff --staged --quiet || git commit -m "📌 PUBLISHER: $(date +%Y-%m-%d-%H%M) — pins published"
+          git push
+
+      - name: 📢 Discord notification
+        if: always()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          STATUS="${{ job.status }}"
+          EMOJI=$([ "$STATUS" = "success" ] && echo "📌" || echo "❌")
+          curl -s -X POST "$DISCORD_WEBHOOK" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\": \"$EMOJI **PUBLISHER** $(date +%H:%M) — Status: $STATUS\"}" || true

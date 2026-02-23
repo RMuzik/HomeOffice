@@ -1,0 +1,99 @@
+name: 💶 Revenue — Analyse ROI Keywords
+
+on:
+  # Tourne le vendredi soir après le TRACKER (vendredi 19h UTC)
+  schedule:
+    - cron: '0 19 * * 5'
+
+  # Déclenchement manuel
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (ne pas sauvegarder)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  revenue-analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📦 Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📥 Install dependencies
+        run: npm ci
+
+      - name: 💶 Run REVENUE agent
+        env:
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          ARGS=""
+          [ "${{ github.event.inputs.dry_run }}" = "true" ] && ARGS="--dry-run"
+          [ -z "$AMAZON_ACCESS_KEY" ] && ARGS="$ARGS --mock"
+          node agents/revenue/index.js $ARGS
+
+      - name: 💾 Commit revenue.json + rapport
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "REVENUE-BOT"
+          git config user.email "bot@homeofficesetup.pro"
+
+          git add data/revenue.json data/reports/revenue-*.md 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "✅ Rien à commiter"
+          else
+            git commit -m "💶 Revenue analyse $(date '+%d/%m/%Y') — $(node -e "
+              const d = require('./data/revenue.json');
+              const s = d.summary;
+              console.log(\`${s.total_keywords} kw | RPM moy ${s.avg_rpm}€ | Rev ${s.total_revenue_eur}€\`);
+            " 2>/dev/null || echo 'ok')"
+            git push
+          fi
+
+      - name: 📊 Discord notification
+        if: github.event.inputs.dry_run != 'true' && env.DISCORD_WEBHOOK_URL != ''
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          node -e "
+            const https = require('https');
+            const data = require('./data/revenue.json');
+            const s = data.summary;
+            const top3 = s.top3?.map(k => \`• \${k.keyword}: RPM \${k.rpm}€ (\${k.tier})\`).join('\n') || '';
+            const msg = {
+              embeds: [{
+                title: '💶 Rapport REVENUE hebdo',
+                color: s.total_revenue_eur > 100 ? 0x00ff00 : 0xffaa00,
+                fields: [
+                  { name: 'Revenue total', value: \`\${s.total_revenue_eur}€\`, inline: true },
+                  { name: 'RPM moyen', value: \`\${s.avg_rpm}€\`, inline: true },
+                  { name: 'Keywords', value: \`\${s.total_keywords}\`, inline: true },
+                  { name: 'Top 3 performers', value: top3 || 'Données insuffisantes' },
+                  { name: 'Tiers', value: \`S:\${s.by_tier.S} A:\${s.by_tier.A} B:\${s.by_tier.B} C:\${s.by_tier.C} D:\${s.by_tier.D}\` },
+                ],
+                footer: { text: 'Agent REVENUE | HomeOffice Setup Pro' },
+                timestamp: new Date().toISOString(),
+              }]
+            };
+            const payload = JSON.stringify(msg);
+            const url = new URL(process.env.DISCORD_WEBHOOK_URL);
+            const req = https.request({ hostname: url.hostname, path: url.pathname + url.search, method: 'POST', headers: { 'Content-Type': 'application/json', 'Content-Length': payload.length } });
+            req.write(payload);
+            req.end();
+            console.log('✅ Discord notification envoyée');
+          " || echo "Discord skip"

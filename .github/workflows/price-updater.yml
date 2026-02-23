@@ -1,0 +1,93 @@
+name: 💰 Price Updater — PA-API
+
+on:
+  # Tourne avant le build BUILDER (lundi 03h30 UTC)
+  schedule:
+    - cron: '30 3 * * 1'
+
+  # Tourne aussi avant chaque déploiement Vercel
+  workflow_call:
+
+  # Déclenchement manuel depuis GitHub
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (ne pas sauvegarder)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📦 Checkout repo affilié
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📥 Install dependencies
+        run: npm ci
+
+      - name: 💾 Restore prices cache
+        uses: actions/cache@v4
+        with:
+          path: data/prices.json
+          key: prices-${{ hashFiles('data/prices.json') }}
+          restore-keys: prices-
+
+      - name: 💰 Update prices via PA-API
+        env:
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            node agents/builder/price-updater.js --dry-run
+          else
+            node agents/builder/price-updater.js
+          fi
+
+      - name: 💾 Commit prices.json
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "PRICE-BOT"
+          git config user.email "bot@homeofficesetup.pro"
+
+          if git diff --quiet data/prices.json; then
+            echo "✅ Prix inchangés — pas de commit"
+          else
+            CHANGED=$(git diff --stat data/prices.json | tail -1)
+            git add data/prices.json
+            git commit -m "💰 Prix màj $(date '+%d/%m/%Y %H:%M') — $CHANGED"
+            git push
+            echo "✅ prices.json commité"
+          fi
+
+      - name: 🚀 Trigger Vercel deploy
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+            echo "✅ Vercel deploy déclenché"
+          fi
+
+      - name: 📊 Summary
+        run: |
+          if [ -f data/prices.json ]; then
+            TOTAL=$(cat data/prices.json | python3 -c "
+          import json, sys
+          d = json.load(sys.stdin)
+          m = d.get('_meta', {})
+          print(f\"Total: {m.get('totalAsins', '?')} ASINs | Mis à jour: {m.get('updated', '?')} | Erreurs: {m.get('errors', '?')} | Mock: {m.get('isMockMode', False)}\")
+            ")
+            echo "📊 $TOTAL"
+          fi

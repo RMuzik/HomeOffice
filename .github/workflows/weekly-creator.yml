@@ -1,0 +1,62 @@
+name: 🎨 CREATOR — Content Generation Pipeline
+
+on:
+  workflow_run:
+    workflows: ["🔍 SCOUT — Weekly Research Pipeline"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Nombre de pins à générer (vide = tous)'
+        required: false
+        default: ''
+
+jobs:
+  creator:
+    name: 🎨 Agent CREATOR
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: 🎨 Run CREATOR Agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          LIMIT_FLAG=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            LIMIT_FLAG="--limit=${{ github.event.inputs.limit }}"
+          fi
+          node agents/creator/index.js $LIMIT_FLAG
+
+      - name: 💾 Commit generated content
+        run: |
+          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.name "APEX Bot"
+          git add data/pins-ready.json data/pins-images/ data/logs/ || true
+          git diff --staged --quiet || git commit -m "🤖 CREATOR: $(date +%Y-%m-%d) — pins generated"
+          git push
+
+      - name: 📢 Discord notification
+        if: always()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          STATUS="${{ job.status }}"
+          EMOJI=$([ "$STATUS" = "success" ] && echo "✅" || echo "❌")
+          curl -s -X POST "$DISCORD_WEBHOOK" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\": \"$EMOJI **CREATOR** terminé — Status: $STATUS\"}" || true

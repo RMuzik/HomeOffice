@@ -1,0 +1,247 @@
+name: 📌 PINTEREST — Weekly Full Pipeline (Make.com Webhook)
+
+on:
+  schedule:
+    # Chaque lundi à 08:00 UTC = 09:00 Paris (heure d'hiver)
+    - cron: '0 8 * * 1'
+
+  # Déclenchement manuel pour tests ou re-run
+  workflow_dispatch:
+    inputs:
+      skip_generation:
+        description: 'Passer la génération (utiliser pins existants)'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+      limit:
+        description: 'Nombre de pins à publier (vide = tous)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Mode simulation (ne publie pas réellement)'
+        required: false
+        default: 'false'
+        type: choice
+        options: ['false', 'true']
+
+env:
+  NODE_VERSION: '20'
+  SITE_REPO: 'RMuzik/HomeOffice-Site'
+  SITE_URL: 'https://raw.githubusercontent.com/RMuzik/HomeOffice-Site/main/public'
+
+jobs:
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PHASE 1 — SCOUT : Recherche de mots-clés et produits trending
+  # ─────────────────────────────────────────────────────────────────────────────
+  scout:
+    name: 🔍 SCOUT — Keyword Research
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: ${{ github.event.inputs.skip_generation != 'true' }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: 🔍 Run SCOUT Agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
+        run: node agents/scout/index.js
+
+      - name: 💾 Commit scout results
+        run: |
+          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.name "APEX Bot"
+          git add data/pins-queue.json data/products.json data/logs/ || true
+          git diff --staged --quiet || git commit -m "🔍 SCOUT: $(date +%Y-%m-%d) — keywords & products updated"
+          git push
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PHASE 2 — CREATOR : Génération DALL-E 3 + textes uniques
+  # ─────────────────────────────────────────────────────────────────────────────
+  creator:
+    name: 🎨 CREATOR — DALL-E Image Generation
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    needs: scout
+    if: ${{ always() && (needs.scout.result == 'success' || needs.scout.result == 'skipped') && github.event.inputs.skip_generation != 'true' }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: 🎨 Run CREATOR Agent (DALL-E 3)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
+          SITE_URL: ${{ env.SITE_URL }}
+        run: |
+          LIMIT_FLAG=""
+          if [ -n "${{ github.event.inputs.limit }}" ]; then
+            LIMIT_FLAG="--limit=${{ github.event.inputs.limit }}"
+          fi
+          node agents/creator/index.js $LIMIT_FLAG
+
+      - name: 💾 Commit generated pins
+        run: |
+          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.name "APEX Bot"
+          git add data/pins-ready.json data/pins-images/ data/logs/ || true
+          git diff --staged --quiet || git commit -m "🎨 CREATOR: $(date +%Y-%m-%d) — $(ls data/pins-images/*.png 2>/dev/null | wc -l) pins generated"
+          git push
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PHASE 3 — DEPLOY IMAGES : Push images vers HomeOffice-Site (CDN GitHub)
+  # ─────────────────────────────────────────────────────────────────────────────
+  deploy-images:
+    name: 🖼️ DEPLOY — Push images to GitHub CDN
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    needs: creator
+    if: ${{ always() && (needs.creator.result == 'success' || needs.creator.result == 'skipped') }}
+
+    steps:
+      - name: 📥 Checkout HomeOffice (scripts)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: HomeOffice
+
+      - name: 📥 Checkout HomeOffice-Site (CDN images)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.SITE_REPO }}
+          token: ${{ secrets.GH_PAT }}
+          ref: main
+          path: HomeOffice-Site
+
+      - name: 🖼️ Copy pin images to site CDN
+        run: |
+          mkdir -p HomeOffice-Site/public/pins
+          if ls HomeOffice/data/pins-images/*.png 2>/dev/null; then
+            cp HomeOffice/data/pins-images/*.png HomeOffice-Site/public/pins/
+            echo "✅ $(ls HomeOffice/data/pins-images/*.png | wc -l) images copiées"
+          else
+            echo "⚠️ Aucune nouvelle image à copier"
+          fi
+
+      - name: 💾 Push images to HomeOffice-Site
+        run: |
+          cd HomeOffice-Site
+          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.name "APEX Bot"
+          git add public/pins/ || true
+          if git diff --staged --quiet; then
+            echo "✅ Aucun changement d'image (déjà à jour)"
+          else
+            COUNT=$(git diff --staged --name-only | wc -l)
+            git commit -m "🖼️ CDN: $(date +%Y-%m-%d) — $COUNT images Pinterest"
+            git push
+            echo "✅ $COUNT images pushées sur GitHub CDN"
+          fi
+
+      - name: ⏳ Wait for GitHub CDN propagation
+        run: |
+          echo "Attente 30s pour la propagation GitHub CDN..."
+          sleep 30
+          # Vérifier qu'une image est accessible
+          SAMPLE=$(ls HomeOffice/data/pins-images/*.png 2>/dev/null | head -1 | xargs basename 2>/dev/null || echo "")
+          if [ -n "$SAMPLE" ]; then
+            PIN_ID="${SAMPLE%.png}"
+            URL="${{ env.SITE_URL }}/pins/${PIN_ID}.png"
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$URL" || echo "000")
+            echo "Test URL: $URL → HTTP $STATUS"
+            if [ "$STATUS" = "200" ]; then
+              echo "✅ GitHub CDN accessible"
+            else
+              echo "⚠️ CDN non encore propagé (HTTP $STATUS) — poursuite quand même"
+            fi
+          fi
+
+  # ─────────────────────────────────────────────────────────────────────────────
+  # PHASE 4 — PUBLISH : Publication via Make.com Webhook → Pinterest
+  # ─────────────────────────────────────────────────────────────────────────────
+  publish:
+    name: 📌 PUBLISH — Pinterest via Make.com Webhook
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    needs: deploy-images
+    if: ${{ always() && needs.deploy-images.result == 'success' }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: 📌 Publish pins via Make.com Webhook
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+          SITE_URL: ${{ env.SITE_URL }}
+          AFFILIATE_TAG: ${{ secrets.AFFILIATE_TAG }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            echo "🧪 Mode DRY RUN — simulation sans publication"
+            node agents/publisher/make-webhook.js --dry-run
+          else
+            LIMIT_FLAG=""
+            if [ -n "${{ github.event.inputs.limit }}" ]; then
+              LIMIT_FLAG="--limit=${{ github.event.inputs.limit }}"
+            fi
+            node agents/publisher/make-webhook.js $LIMIT_FLAG
+          fi
+
+      - name: 💾 Save publish state
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.name "APEX Bot"
+          git add data/publish-state.json data/logs/ || true
+          git diff --staged --quiet || git commit -m "📌 PUBLISHED: $(date +%Y-%m-%d) — pins Pinterest"
+          git push
+
+      - name: 📊 Publication summary
+        if: always()
+        run: |
+          if [ -f data/publish-state.json ]; then
+            TOTAL=$(node -e "const s=require('./data/publish-state.json'); console.log(s.stats?.total_published || 0)")
+            WEEK=$(node -e "const s=require('./data/publish-state.json'); console.log(s.stats?.this_week || 0)")
+            echo "📊 Total publié: $TOTAL pins | Cette semaine: $WEEK pins"
+          fi
+
+      - name: 📢 Discord notification
+        if: always()
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK" ]; then exit 0; fi
+          STATUS="${{ job.status }}"
+          EMOJI=$([ "$STATUS" = "success" ] && echo "📌" || echo "❌")
+          TOTAL=$(node -e "const s=require('./data/publish-state.json'); console.log(s.stats?.total_published || 0)" 2>/dev/null || echo "?")
+          curl -s -X POST "$DISCORD_WEBHOOK" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\": \"$EMOJI **Pinterest Publisher** — $(date +%Y-%m-%d)\nStatus: \`$STATUS\`\nTotal publié: **$TOTAL pins**\nBoard: homeofficesetup.pro\"}" || true

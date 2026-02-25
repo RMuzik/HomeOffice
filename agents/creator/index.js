@@ -64,6 +64,7 @@ function saveData(filename, data) {
 async function run() {
   const args = process.argv.slice(2);
   const dryRun = args.includes('--dry-run');
+  const skipImages = args.includes('--skip-images');
   const limitArg = args.find(a => a.startsWith('--limit='));
   const dayArg = args.find(a => a.startsWith('--day='));
   const limit = limitArg ? parseInt(limitArg.split('=')[1]) : null;
@@ -104,10 +105,20 @@ async function run() {
     log('INFO', `✅ Texte généré pour ${pinsWithText.length} pins`);
 
     // ── 3. Génération images (DALL-E ou SVG mock) ─────────────────────────
-    log('INFO', '🎨 Génération images...');
-    const pinsWithImages = await generateBatchImages(pinsWithText, IMAGES_DIR);
+    let pinsWithImages;
+    if (skipImages) {
+      log('INFO', '⏭️  --skip-images: réutilisation des images existantes');
+      pinsWithImages = pinsWithText.map(pin => ({
+        ...pin,
+        image_path: path.join(IMAGES_DIR, `${pin.pin_id}.png`),
+        image_status: fs.existsSync(path.join(IMAGES_DIR, `${pin.pin_id}.png`)) ? 'ok' : 'missing'
+      }));
+    } else {
+      log('INFO', '🎨 Génération images...');
+      pinsWithImages = await generateBatchImages(pinsWithText, IMAGES_DIR);
+    }
     const imagesOk = pinsWithImages.filter(p => p.image_status === 'ok').length;
-    log('INFO', `✅ Images générées: ${imagesOk}/${pinsWithImages.length}`);
+    log('INFO', `✅ Images: ${imagesOk}/${pinsWithImages.length}`);
 
     // ── 4. Composition finale ─────────────────────────────────────────────
     log('INFO', '📦 Composition pins finaux...');

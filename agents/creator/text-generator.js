@@ -5,6 +5,8 @@
  */
 
 require('dotenv').config();
+const fs = require('fs');
+const path = require('path');
 const Anthropic = require('@anthropic-ai/sdk');
 
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -101,6 +103,16 @@ Génère EXACTEMENT ce JSON :
 async function generatePinText(pin, product = null) {
   const pinType = pin.type || 'setup-showcase';
   const keyword = pin.keyword || 'home office setup';
+
+  // Vérifier fichier override d'abord (textes pré-générés par Claude Code)
+  const overrideFile = path.join(__dirname, '../../data/pins-content.json');
+  if (fs.existsSync(overrideFile)) {
+    const overrides = JSON.parse(fs.readFileSync(overrideFile, 'utf-8'));
+    if (overrides[pin.pin_id]) {
+      console.log(`[CREATOR/Text] ✨ Override — "${keyword}" (${pinType})`);
+      return { ...overrides[pin.pin_id], generated_by: 'claude-code-override', pin_type: pinType, keyword };
+    }
+  }
 
   // Mode mock si pas de clé API
   if (!process.env.ANTHROPIC_API_KEY) {

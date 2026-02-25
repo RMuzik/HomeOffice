@@ -1,1298 +1,577 @@
 {
-  "generated_at": "2026-02-21T08:36:48.125Z",
-  "agent": "SCOUT",
-  "version": "1.0.0",
+  "generated_at": "2026-02-23T10:00:00.000Z",
+  "agent": "MANUAL_FIX",
+  "version": "1.1.0",
   "by_category": {
     "Standing Desks": [
       {
-        "asin": "B08D9GPMDK",
-        "title": "Flexispot E7 Pro Standing Desk 140x70cm",
-        "brand": "Flexispot",
-        "price": 429.99,
-        "rating": 4.6,
-        "review_count": 2847,
+        "asin": "B09TD87W1J",
+        "title": "Desktronic Bureau Assis Debout Électrique 160x80cm",
+        "brand": "Desktronic",
+        "price": 464.00,
+        "rating": 4.8,
+        "review_count": 826,
         "category": "Standing Desks",
-        "image_url": "https://example.com/flexispot-e7.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG",
+        "image_url": "https://www.amazon.fr/images/I/B09TD87W1J.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B09TD87W1J?tag=zeroalc-21",
         "features": [
           "Moteur double silencieux",
           "Mémoire 4 positions",
-          "Anti-collision",
-          "10 ans garantie"
+          "Capacité 80kg",
+          "Livraison rapide Amazon"
         ],
         "pros": [
+          "Moteur double ultra-stable",
+          "Mémoire 4 positions",
+          "Livraison rapide Amazon"
+        ],
+        "cons": [
+          "Plateau non inclus",
+          "Montage ~60 min"
+        ],
+        "revenue_potential": {
+          "commission_rate": "3%",
+          "estimated_monthly_revenue": 6.96,
+          "estimated_yearly_revenue": 83.52,
+          "commission_per_sale": 13.92
+        }
+      },
+      {
+        "asin": "B0BHTQRLXS",
+        "title": "Desktronic Bureau Assis Debout Électrique 200x80cm",
+        "brand": "Desktronic",
+        "price": 584.00,
+        "rating": 4.8,
+        "review_count": 826,
+        "category": "Standing Desks",
+        "image_url": "https://www.amazon.fr/images/I/B0BHTQRLXS.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0BHTQRLXS?tag=zeroalc-21",
+        "features": [
+          "Surface XXL 200x80cm",
+          "Moteur double renforcé",
+          "Finitions premium",
+          "Mémoire 4 positions"
+        ],
+        "pros": [
+          "Surface XXL 200x80cm",
           "Très stable",
-          "Silencieux",
-          "Solide qualité"
+          "Finitions impeccables"
         ],
         "cons": [
           "Prix élevé",
-          "Livraison longue"
+          "Nécessite beaucoup de place"
         ],
         "revenue_potential": {
           "commission_rate": "3%",
-          "estimated_monthly_revenue": 6.45,
-          "estimated_yearly_revenue": 77.4,
-          "commission_per_sale": 12.9
+          "estimated_monthly_revenue": 8.76,
+          "estimated_yearly_revenue": 105.12,
+          "commission_per_sale": 17.52
         }
       },
       {
-        "asin": "B09NQKFMF8",
-        "title": "Autonomous SmartDesk Pro 152x76cm",
-        "brand": "Autonomous",
-        "price": 549,
-        "rating": 4.4,
-        "review_count": 1203,
+        "asin": "B087JF3B5S",
+        "title": "MAIDeSITe T2 Pro Plus Bureau Assis Debout",
+        "brand": "MAIDeSITe",
+        "price": 339.00,
+        "rating": 4.6,
+        "review_count": 1200,
         "category": "Standing Desks",
-        "image_url": "https://example.com/autonomous-pro.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG",
+        "image_url": "https://www.amazon.fr/images/I/B087JF3B5S.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B087JF3B5S?tag=zeroalc-21",
         "features": [
-          "4 options mémoire",
-          "Hauteur 66-128cm",
-          "Surface XL",
-          "Garantie 5 ans"
-        ],
-        "pros": [
-          "Large surface de travail",
-          "Design premium"
-        ],
-        "cons": [
-          "Montage complexe",
-          "Lourd"
-        ],
-        "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 8.23,
-          "estimated_yearly_revenue": 98.82,
-          "commission_per_sale": 16.47
-        }
-      },
-      {
-        "asin": "B094KFHK7N",
-        "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
-        "brand": "IKEA",
-        "price": 299,
-        "rating": 4.2,
-        "review_count": 892,
-        "category": "Standing Desks",
-        "image_url": "https://example.com/ikea-trotten.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "Réglage manuel",
-          "Design épuré",
-          "Compatible accessoires IKEA"
+          "Moteur électrique silencieux",
+          "Hauteur 62-128cm",
+          "Cadre acier robuste",
+          "Montage simple"
         ],
         "pros": [
           "Prix accessible",
-          "Design scandinave",
-          "Facile à monter"
+          "Montage simple",
+          "Cadre acier solide"
         ],
         "cons": [
-          "Réglage manuel",
-          "Moins de stabilité"
+          "Plateau non inclus",
+          "Notice en anglais"
         ],
         "revenue_potential": {
-          "commission_rate": "4%",
-          "estimated_monthly_revenue": 5.98,
-          "estimated_yearly_revenue": 71.76,
-          "commission_per_sale": 11.96
+          "commission_rate": "3%",
+          "estimated_monthly_revenue": 5.09,
+          "estimated_yearly_revenue": 61.02,
+          "commission_per_sale": 10.17
         }
       }
     ],
     "Ergonomic Chairs": [
       {
-        "asin": "B09HFPV76X",
-        "title": "Secretlab TITAN Evo 2022 Ergonomic Chair",
-        "brand": "Secretlab",
-        "price": 499,
-        "rating": 4.7,
-        "review_count": 3421,
+        "asin": "B0BGZB6VZM",
+        "title": "CleverSeat Chaise Ergonomique Maille Réglable",
+        "brand": "CleverSeat",
+        "price": 249.00,
+        "rating": 4.6,
+        "review_count": 1250,
         "category": "Ergonomic Chairs",
-        "image_url": "https://example.com/secretlab-titan.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09HFPV76X?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "Lombaire magnétique",
-          "Accoudoirs 4D",
-          "Mécanisme multi-tilt",
-          "Certification SG+"
-        ],
-        "pros": [
-          "Très confortable",
-          "Qualité premium",
-          "Support lombaire excellent"
-        ],
-        "cons": [
-          "Prix élevé",
-          "Délai de livraison"
-        ],
-        "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 7.48,
-          "estimated_yearly_revenue": 89.82,
-          "commission_per_sale": 14.97
-        }
-      },
-      {
-        "asin": "B08FKWD1T1",
-        "title": "Ergohuman Basic ME7ERG Mesh Chair",
-        "brand": "Ergohuman",
-        "price": 389,
-        "rating": 4.5,
-        "review_count": 1876,
-        "category": "Ergonomic Chairs",
-        "image_url": "https://example.com/ergohuman-basic.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B08FKWD1T1?tag=YOUR_ASSOCIATE_TAG",
+        "image_url": "https://www.amazon.fr/images/I/B0BGZB6VZM.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0BGZB6VZM?tag=zeroalc-21",
         "features": [
           "Dossier mesh respirant",
-          "Appui-tête réglable",
-          "Accoudoirs 3D",
-          "Lombaire ajustable"
+          "Lombaire réglable",
+          "Appui-tête ajustable",
+          "Accoudoirs 3D"
         ],
         "pros": [
-          "Bon rapport qualité/prix",
-          "Respirant",
-          "Polyvalent"
+          "Lombaire réglable",
+          "Dossier maille respirant",
+          "Appui-tête inclus"
         ],
         "cons": [
-          "Assise légèrement ferme",
-          "Montage long"
+          "Marque peu connue",
+          "Montage 45 min"
         ],
         "revenue_potential": {
           "commission_rate": "3%",
-          "estimated_monthly_revenue": 5.83,
-          "estimated_yearly_revenue": 70.02,
-          "commission_per_sale": 11.67
+          "estimated_monthly_revenue": 3.74,
+          "estimated_yearly_revenue": 44.82,
+          "commission_per_sale": 7.47
         }
       },
       {
-        "asin": "B07Z9WQVNV",
-        "title": "HAG Capisco Ergonomic Office Chair",
-        "brand": "HAG",
-        "price": 899,
-        "rating": 4.8,
-        "review_count": 567,
+        "asin": "B0GFMQMJ47",
+        "title": "Alpha Chair Chaise Bureau Ergonomique 150kg",
+        "brand": "Alpha Chair",
+        "price": 159.00,
+        "rating": 4.4,
+        "review_count": 890,
         "category": "Ergonomic Chairs",
-        "image_url": "https://example.com/hag-capisco.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B07Z9WQVNV?tag=YOUR_ASSOCIATE_TAG",
+        "image_url": "https://www.amazon.fr/images/I/B0GFMQMJ47.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0GFMQMJ47?tag=zeroalc-21",
         "features": [
-          "Design unique selle de cheval",
-          "Compatible bureaux debout",
-          "Hauteur réglable 47-62cm",
-          "Garantie 10 ans"
+          "Lombaire ajustable",
+          "Hauteur réglable",
+          "Capacité 150kg",
+          "Accoudoirs réglables"
         ],
         "pros": [
-          "Idéale pour bureau debout",
-          "Posture active",
-          "Longévité excellente"
+          "Prix accessible",
+          "Lombaire ajustable",
+          "Capacité 150kg"
         ],
         "cons": [
-          "Prix très élevé",
-          "Design atypique"
+          "Moins de réglages premium",
+          "Durabilité à confirmer"
         ],
         "revenue_potential": {
           "commission_rate": "3%",
-          "estimated_monthly_revenue": 13.48,
-          "estimated_yearly_revenue": 161.82,
-          "commission_per_sale": 26.97
+          "estimated_monthly_revenue": 2.39,
+          "estimated_yearly_revenue": 28.62,
+          "commission_per_sale": 4.77
+        }
+      },
+      {
+        "asin": "B0D9GWQF84",
+        "title": "Yaheetech Chaise Bureau Ergonomique Similicuir",
+        "brand": "Yaheetech",
+        "price": 79.00,
+        "rating": 4.1,
+        "review_count": 3420,
+        "category": "Ergonomic Chairs",
+        "image_url": "https://www.amazon.fr/images/I/B0D9GWQF84.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0D9GWQF84?tag=zeroalc-21",
+        "features": [
+          "Hauteur réglable",
+          "Accoudoirs réglables",
+          "Assise rembourrée",
+          "Marque reconnue Amazon"
+        ],
+        "pros": [
+          "Prix imbattable",
+          "Marque reconnue Amazon",
+          "Hauteur réglable"
+        ],
+        "cons": [
+          "Pas pour usage intensif",
+          "Support lombaire limité"
+        ],
+        "revenue_potential": {
+          "commission_rate": "3%",
+          "estimated_monthly_revenue": 1.19,
+          "estimated_yearly_revenue": 14.22,
+          "commission_per_sale": 2.37
         }
       }
     ],
     "Monitors": [
       {
-        "asin": "B09JGZRXMB",
-        "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
+        "asin": "B0DTQ9SKYF",
+        "title": "LG 27UP850K-W 27\" 4K IPS USB-C 96W",
         "brand": "LG",
-        "price": 449,
+        "price": 273.00,
         "rating": 4.6,
-        "review_count": 4521,
+        "review_count": 1850,
         "category": "Monitors",
-        "image_url": "https://example.com/lg-27uk850.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09JGZRXMB?tag=YOUR_ASSOCIATE_TAG",
+        "image_url": "https://www.amazon.fr/images/I/B0DTQ9SKYF.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0DTQ9SKYF?tag=zeroalc-21",
         "features": [
           "4K UHD IPS",
-          "USB-C 60W",
+          "USB-C 96W",
           "HDR400",
-          "FreeSync",
-          "Pied réglable"
+          "DCI-P3 95%",
+          "Pied réglable hauteur"
         ],
         "pros": [
-          "Qualité image excellente",
-          "USB-C pratique",
-          "Charge MacBook"
+          "USB-C 96W",
+          "4K IPS",
+          "Pied réglable hauteur"
         ],
         "cons": [
           "Pas de 144Hz",
-          "Pied un peu plastique"
+          "Haut-parleurs basiques"
         ],
         "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 6.73,
-          "estimated_yearly_revenue": 80.82,
-          "commission_per_sale": 13.47
+          "commission_rate": "2.5%",
+          "estimated_monthly_revenue": 3.41,
+          "estimated_yearly_revenue": 40.95,
+          "commission_per_sale": 6.83
         }
       },
       {
-        "asin": "B09NK5DFGG",
-        "title": "Dell UltraSharp U2722D 27\" QHD",
+        "asin": "B096K7YHPW",
+        "title": "Dell P2722H 27\" FHD IPS USB Hub",
         "brand": "Dell",
-        "price": 379,
+        "price": 257.00,
         "rating": 4.7,
-        "review_count": 2103,
+        "review_count": 3240,
         "category": "Monitors",
-        "image_url": "https://example.com/dell-u2722d.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09NK5DFGG?tag=YOUR_ASSOCIATE_TAG",
+        "image_url": "https://www.amazon.fr/images/I/B096K7YHPW.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B096K7YHPW?tag=zeroalc-21",
         "features": [
-          "QHD 2560x1440",
-          "USB-C 90W",
-          "IPS Anti-éblouissement",
-          "Hub USB intégré"
+          "IPS Full HD 27\"",
+          "Hub USB intégré",
+          "Garantie 3 ans Dell",
+          "Bords ultra-fins"
         ],
         "pros": [
-          "Excellent pour le travail",
-          "Dalle IPS parfaite",
-          "Connectivité top"
+          "Garantie 3 ans Dell",
+          "Hub USB intégré",
+          "Dalle IPS fidèle"
         ],
         "cons": [
-          "Prix",
-          "Pas de 4K"
+          "Full HD seulement",
+          "Pas de USB-C"
         ],
         "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 5.68,
-          "estimated_yearly_revenue": 68.22,
-          "commission_per_sale": 11.37
+          "commission_rate": "2.5%",
+          "estimated_monthly_revenue": 3.21,
+          "estimated_yearly_revenue": 38.55,
+          "commission_per_sale": 6.43
+        }
+      },
+      {
+        "asin": "B0DK51HDGB",
+        "title": "Lenovo L27i-4B Moniteur 27\" FHD IPS",
+        "brand": "Lenovo",
+        "price": 109.00,
+        "rating": 4.4,
+        "review_count": 520,
+        "category": "Monitors",
+        "image_url": "https://www.amazon.fr/images/I/B0DK51HDGB.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0DK51HDGB?tag=zeroalc-21",
+        "features": [
+          "IPS Full HD 27\"",
+          "Eye-care certifié",
+          "Bords fins",
+          "Marque de confiance"
+        ],
+        "pros": [
+          "Prix imbattable pour du 27\"",
+          "Dalle IPS fidèle",
+          "Marque de confiance"
+        ],
+        "cons": [
+          "60Hz uniquement",
+          "Pied peu réglable"
+        ],
+        "revenue_potential": {
+          "commission_rate": "2.5%",
+          "estimated_monthly_revenue": 1.36,
+          "estimated_yearly_revenue": 16.35,
+          "commission_per_sale": 2.73
         }
       }
     ],
     "Desk Lamps": [
       {
-        "asin": "B07QLPVTRZ",
-        "title": "BenQ ScreenBar Halo Monitor Light",
-        "brand": "BenQ",
-        "price": 179.99,
-        "rating": 4.7,
-        "review_count": 8934,
-        "category": "Desk Lamps",
-        "image_url": "https://example.com/benq-screenbar-halo.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B07QLPVTRZ?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "Rétroéclairage ambient",
-          "Pas de reflets sur écran",
-          "Commande sans fil",
-          "CCT 2700K-6500K"
-        ],
-        "pros": [
-          "Réduit fatigue oculaire",
-          "Design épuré",
-          "Rétroéclairage excellent"
-        ],
-        "cons": [
-          "Prix élevé pour une lampe",
-          "Fixation spécifique moniteur"
-        ],
-        "revenue_potential": {
-          "commission_rate": "4%",
-          "estimated_monthly_revenue": 3.6,
-          "estimated_yearly_revenue": 43.2,
-          "commission_per_sale": 7.2
-        }
-      },
-      {
-        "asin": "B08DCMKX7C",
-        "title": "Elgato Key Light Air Professional",
+        "asin": "B07L755X9G",
+        "title": "Elgato Key Light — Panneau LED professionnel",
         "brand": "Elgato",
-        "price": 99.99,
-        "rating": 4.5,
-        "review_count": 5672,
+        "price": 199.00,
+        "rating": 4.7,
+        "review_count": 5621,
         "category": "Desk Lamps",
-        "image_url": "https://example.com/elgato-key-light.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B08DCMKX7C?tag=YOUR_ASSOCIATE_TAG",
+        "image_url": "https://www.amazon.fr/images/I/B07L755X9G.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B07L755X9G?tag=zeroalc-21",
         "features": [
-          "Contrôle app Stream Deck",
-          "Luminosité 800 lux",
-          "CCT réglable",
-          "Ultra-mince"
+          "2800 lumens",
+          "Température 2900-7000K",
+          "Contrôle via app",
+          "Compatible Stream Deck"
         ],
         "pros": [
-          "Parfait pour visioconférences",
+          "Luminosité pro",
           "Contrôle app",
-          "Lumière douce"
+          "Bras articulé"
         ],
         "cons": [
-          "Pas idéal comme lampe de bureau seule",
-          "Fixation bureau obligatoire"
+          "Prix élevé",
+          "Câble USB encombrant"
         ],
         "revenue_potential": {
           "commission_rate": "4%",
-          "estimated_monthly_revenue": 2,
-          "estimated_yearly_revenue": 24,
-          "commission_per_sale": 4
+          "estimated_monthly_revenue": 3.98,
+          "estimated_yearly_revenue": 47.76,
+          "commission_per_sale": 7.96
         }
       }
     ],
     "Webcams": [
       {
-        "asin": "B08D9GPMDK",
-        "title": "Flexispot E7 Pro Standing Desk 140x70cm",
-        "brand": "Flexispot",
-        "price": 429.99,
+        "asin": "B07K986YLL",
+        "title": "Logitech C920s HD Pro Webcam 1080p",
+        "brand": "Logitech",
+        "price": 89.99,
         "rating": 4.6,
-        "review_count": 2847,
-        "category": "Standing Desks",
-        "image_url": "https://example.com/flexispot-e7.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG",
+        "review_count": 15230,
+        "category": "Webcams",
+        "image_url": "https://www.amazon.fr/images/I/B07K986YLL.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B07K986YLL?tag=zeroalc-21",
         "features": [
-          "Moteur double silencieux",
-          "Mémoire 4 positions",
-          "Anti-collision",
-          "10 ans garantie"
+          "Full HD 1080p/30fps",
+          "Couverture diaphragme",
+          "Stéréo microphone intégré",
+          "Compatible Zoom/Teams"
         ],
         "pros": [
-          "Très stable",
-          "Silencieux",
-          "Solide qualité"
+          "Qualité image excellente",
+          "Plug & play",
+          "Marque fiable"
         ],
         "cons": [
-          "Prix élevé",
-          "Livraison longue"
-        ],
-        "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 6.45,
-          "estimated_yearly_revenue": 77.4,
-          "commission_per_sale": 12.9
-        }
-      },
-      {
-        "asin": "B09NQKFMF8",
-        "title": "Autonomous SmartDesk Pro 152x76cm",
-        "brand": "Autonomous",
-        "price": 549,
-        "rating": 4.4,
-        "review_count": 1203,
-        "category": "Standing Desks",
-        "image_url": "https://example.com/autonomous-pro.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "4 options mémoire",
-          "Hauteur 66-128cm",
-          "Surface XL",
-          "Garantie 5 ans"
-        ],
-        "pros": [
-          "Large surface de travail",
-          "Design premium"
-        ],
-        "cons": [
-          "Montage complexe",
-          "Lourd"
-        ],
-        "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 8.23,
-          "estimated_yearly_revenue": 98.82,
-          "commission_per_sale": 16.47
-        }
-      },
-      {
-        "asin": "B094KFHK7N",
-        "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
-        "brand": "IKEA",
-        "price": 299,
-        "rating": 4.2,
-        "review_count": 892,
-        "category": "Standing Desks",
-        "image_url": "https://example.com/ikea-trotten.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "Réglage manuel",
-          "Design épuré",
-          "Compatible accessoires IKEA"
-        ],
-        "pros": [
-          "Prix accessible",
-          "Design scandinave",
-          "Facile à monter"
-        ],
-        "cons": [
-          "Réglage manuel",
-          "Moins de stabilité"
+          "Pas de 4K",
+          "Câble non détachable"
         ],
         "revenue_potential": {
           "commission_rate": "4%",
-          "estimated_monthly_revenue": 5.98,
-          "estimated_yearly_revenue": 71.76,
-          "commission_per_sale": 11.96
+          "estimated_monthly_revenue": 1.8,
+          "estimated_yearly_revenue": 21.6,
+          "commission_per_sale": 3.6
         }
       }
     ],
     "Headsets": [
       {
-        "asin": "B08D9GPMDK",
-        "title": "Flexispot E7 Pro Standing Desk 140x70cm",
-        "brand": "Flexispot",
-        "price": 429.99,
-        "rating": 4.6,
-        "review_count": 2847,
-        "category": "Standing Desks",
-        "image_url": "https://example.com/flexispot-e7.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG",
+        "asin": "B004ELA7TA",
+        "title": "Jabra Speak 410 Speakerphone USB",
+        "brand": "Jabra",
+        "price": 103.00,
+        "rating": 4.5,
+        "review_count": 6200,
+        "category": "Headsets",
+        "image_url": "https://www.amazon.fr/images/I/B004ELA7TA.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B004ELA7TA?tag=zeroalc-21",
         "features": [
-          "Moteur double silencieux",
-          "Mémoire 4 positions",
-          "Anti-collision",
-          "10 ans garantie"
+          "Micro 360°",
+          "Plug & play USB",
+          "Compatible Zoom/Teams/Meet",
+          "Certifié Microsoft"
         ],
         "pros": [
-          "Très stable",
-          "Silencieux",
-          "Solide qualité"
+          "Plug & play USB",
+          "Micro 360° certifié",
+          "Compatible tous outils visio"
         ],
         "cons": [
-          "Prix élevé",
-          "Livraison longue"
+          "Pas de Bluetooth",
+          "Moins bon qu'un micro dédié solo"
         ],
         "revenue_potential": {
           "commission_rate": "3%",
-          "estimated_monthly_revenue": 6.45,
-          "estimated_yearly_revenue": 77.4,
-          "commission_per_sale": 12.9
-        }
-      },
-      {
-        "asin": "B09NQKFMF8",
-        "title": "Autonomous SmartDesk Pro 152x76cm",
-        "brand": "Autonomous",
-        "price": 549,
-        "rating": 4.4,
-        "review_count": 1203,
-        "category": "Standing Desks",
-        "image_url": "https://example.com/autonomous-pro.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "4 options mémoire",
-          "Hauteur 66-128cm",
-          "Surface XL",
-          "Garantie 5 ans"
-        ],
-        "pros": [
-          "Large surface de travail",
-          "Design premium"
-        ],
-        "cons": [
-          "Montage complexe",
-          "Lourd"
-        ],
-        "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 8.23,
-          "estimated_yearly_revenue": 98.82,
-          "commission_per_sale": 16.47
-        }
-      },
-      {
-        "asin": "B094KFHK7N",
-        "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
-        "brand": "IKEA",
-        "price": 299,
-        "rating": 4.2,
-        "review_count": 892,
-        "category": "Standing Desks",
-        "image_url": "https://example.com/ikea-trotten.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "Réglage manuel",
-          "Design épuré",
-          "Compatible accessoires IKEA"
-        ],
-        "pros": [
-          "Prix accessible",
-          "Design scandinave",
-          "Facile à monter"
-        ],
-        "cons": [
-          "Réglage manuel",
-          "Moins de stabilité"
-        ],
-        "revenue_potential": {
-          "commission_rate": "4%",
-          "estimated_monthly_revenue": 5.98,
-          "estimated_yearly_revenue": 71.76,
-          "commission_per_sale": 11.96
+          "estimated_monthly_revenue": 1.55,
+          "estimated_yearly_revenue": 18.54,
+          "commission_per_sale": 3.09
         }
       }
     ],
     "Desk Accessories": [
       {
-        "asin": "B07QLPVTRZ",
-        "title": "BenQ ScreenBar Halo Monitor Light",
-        "brand": "BenQ",
-        "price": 179.99,
-        "rating": 4.7,
-        "review_count": 8934,
-        "category": "Desk Lamps",
-        "image_url": "https://example.com/benq-screenbar-halo.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B07QLPVTRZ?tag=YOUR_ASSOCIATE_TAG",
+        "asin": "B0FHHV6YR5",
+        "title": "Logitech MX Master 3S Souris Sans Fil",
+        "brand": "Logitech",
+        "price": 93.00,
+        "rating": 4.8,
+        "review_count": 9120,
+        "category": "Desk Accessories",
+        "image_url": "https://www.amazon.fr/images/I/B0FHHV6YR5.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0FHHV6YR5?tag=zeroalc-21",
         "features": [
-          "Rétroéclairage ambient",
-          "Pas de reflets sur écran",
-          "Commande sans fil",
-          "CCT 2700K-6500K"
+          "Scroll MagSpeed électromagnétique",
+          "8000 DPI",
+          "Multi-device 3 appareils",
+          "Silencieuse -90%"
         ],
         "pros": [
-          "Réduit fatigue oculaire",
-          "Design épuré",
-          "Rétroéclairage excellent"
+          "Scroll MagSpeed",
+          "Multi-device 3",
+          "Silencieuse"
         ],
         "cons": [
-          "Prix élevé pour une lampe",
-          "Fixation spécifique moniteur"
+          "Prix élevé",
+          "Conçue pour grande main"
         ],
         "revenue_potential": {
           "commission_rate": "4%",
-          "estimated_monthly_revenue": 3.6,
-          "estimated_yearly_revenue": 43.2,
-          "commission_per_sale": 7.2
+          "estimated_monthly_revenue": 1.86,
+          "estimated_yearly_revenue": 22.32,
+          "commission_per_sale": 3.72
         }
       },
       {
-        "asin": "B08DCMKX7C",
-        "title": "Elgato Key Light Air Professional",
-        "brand": "Elgato",
-        "price": 99.99,
+        "asin": "B0CFR34FDB",
+        "title": "Logitech Pebble 2 Combo Clavier + Souris silencieux",
+        "brand": "Logitech",
+        "price": 42.00,
         "rating": 4.5,
-        "review_count": 5672,
-        "category": "Desk Lamps",
-        "image_url": "https://example.com/elgato-key-light.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B08DCMKX7C?tag=YOUR_ASSOCIATE_TAG",
+        "review_count": 1850,
+        "category": "Desk Accessories",
+        "image_url": "https://www.amazon.fr/images/I/B0CFR34FDB.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B0CFR34FDB?tag=zeroalc-21",
         "features": [
-          "Contrôle app Stream Deck",
-          "Luminosité 800 lux",
-          "CCT réglable",
-          "Ultra-mince"
+          "Ultra-silencieux",
+          "Bluetooth + dongle USB",
+          "Autonomie 36 mois clavier",
+          "Design compact"
         ],
         "pros": [
-          "Parfait pour visioconférences",
-          "Contrôle app",
-          "Lumière douce"
+          "Ultra-silencieux",
+          "Autonomie record",
+          "Bluetooth + dongle USB"
         ],
         "cons": [
-          "Pas idéal comme lampe de bureau seule",
-          "Fixation bureau obligatoire"
+          "Pas d'éclairage",
+          "Format compact (sans pavé num)"
         ],
         "revenue_potential": {
           "commission_rate": "4%",
-          "estimated_monthly_revenue": 2,
-          "estimated_yearly_revenue": 24,
-          "commission_per_sale": 4
+          "estimated_monthly_revenue": 0.84,
+          "estimated_yearly_revenue": 10.08,
+          "commission_per_sale": 1.68
         }
       }
     ],
     "Monitor Arms": [
       {
-        "asin": "B09JGZRXMB",
-        "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
-        "brand": "LG",
-        "price": 449,
-        "rating": 4.6,
-        "review_count": 4521,
-        "category": "Monitors",
-        "image_url": "https://example.com/lg-27uk850.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09JGZRXMB?tag=YOUR_ASSOCIATE_TAG",
-        "features": [
-          "4K UHD IPS",
-          "USB-C 60W",
-          "HDR400",
-          "FreeSync",
-          "Pied réglable"
-        ],
-        "pros": [
-          "Qualité image excellente",
-          "USB-C pratique",
-          "Charge MacBook"
-        ],
-        "cons": [
-          "Pas de 144Hz",
-          "Pied un peu plastique"
-        ],
-        "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 6.73,
-          "estimated_yearly_revenue": 80.82,
-          "commission_per_sale": 13.47
-        }
-      },
-      {
-        "asin": "B09NK5DFGG",
-        "title": "Dell UltraSharp U2722D 27\" QHD",
-        "brand": "Dell",
-        "price": 379,
+        "asin": "B00BVP7502",
+        "title": "Ergotron LX Bras Moniteur Bureau",
+        "brand": "Ergotron",
+        "price": 109.00,
         "rating": 4.7,
-        "review_count": 2103,
-        "category": "Monitors",
-        "image_url": "https://example.com/dell-u2722d.jpg",
-        "affiliate_url": "https://www.amazon.fr/dp/B09NK5DFGG?tag=YOUR_ASSOCIATE_TAG",
+        "review_count": 12450,
+        "category": "Monitor Arms",
+        "image_url": "https://www.amazon.fr/images/I/B00BVP7502.jpg",
+        "affiliate_url": "https://www.amazon.fr/dp/B00BVP7502?tag=zeroalc-21",
         "features": [
-          "QHD 2560x1440",
-          "USB-C 90W",
-          "IPS Anti-éblouissement",
-          "Hub USB intégré"
+          "Compatible moniteurs jusqu'à 34\"",
+          "Charge max 11.3kg",
+          "Rotation 360°",
+          "Gestion câbles intégrée"
         ],
         "pros": [
-          "Excellent pour le travail",
-          "Dalle IPS parfaite",
-          "Connectivité top"
+          "Référence du secteur",
+          "Construction métal solide",
+          "Mouvement fluide"
         ],
         "cons": [
-          "Prix",
-          "Pas de 4K"
+          "Prix élevé pour un bras",
+          "Serrage initial complexe"
         ],
         "revenue_potential": {
-          "commission_rate": "3%",
-          "estimated_monthly_revenue": 5.68,
-          "estimated_yearly_revenue": 68.22,
-          "commission_per_sale": 11.37
+          "commission_rate": "4%",
+          "estimated_monthly_revenue": 2.18,
+          "estimated_yearly_revenue": 26.16,
+          "commission_per_sale": 4.36
         }
       }
     ]
   },
   "top_products": [
     {
-      "asin": "B08D9GPMDK",
-      "title": "Flexispot E7 Pro Standing Desk 140x70cm",
-      "brand": "Flexispot",
-      "price": 429.99,
-      "rating": 4.6,
-      "review_count": 2847,
-      "category": "Standing Desks",
-      "image_url": "https://example.com/flexispot-e7.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Moteur double silencieux",
-        "Mémoire 4 positions",
-        "Anti-collision",
-        "10 ans garantie"
-      ],
-      "pros": [
-        "Très stable",
-        "Silencieux",
-        "Solide qualité"
-      ],
-      "cons": [
-        "Prix élevé",
-        "Livraison longue"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 6.45,
-        "estimated_yearly_revenue": 77.4,
-        "commission_per_sale": 12.9
-      }
-    },
-    {
-      "asin": "B09NQKFMF8",
-      "title": "Autonomous SmartDesk Pro 152x76cm",
-      "brand": "Autonomous",
-      "price": 549,
-      "rating": 4.4,
-      "review_count": 1203,
-      "category": "Standing Desks",
-      "image_url": "https://example.com/autonomous-pro.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "4 options mémoire",
-        "Hauteur 66-128cm",
-        "Surface XL",
-        "Garantie 5 ans"
-      ],
-      "pros": [
-        "Large surface de travail",
-        "Design premium"
-      ],
-      "cons": [
-        "Montage complexe",
-        "Lourd"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 8.23,
-        "estimated_yearly_revenue": 98.82,
-        "commission_per_sale": 16.47
-      }
-    },
-    {
-      "asin": "B094KFHK7N",
-      "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
-      "brand": "IKEA",
-      "price": 299,
-      "rating": 4.2,
-      "review_count": 892,
-      "category": "Standing Desks",
-      "image_url": "https://example.com/ikea-trotten.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Réglage manuel",
-        "Design épuré",
-        "Compatible accessoires IKEA"
-      ],
-      "pros": [
-        "Prix accessible",
-        "Design scandinave",
-        "Facile à monter"
-      ],
-      "cons": [
-        "Réglage manuel",
-        "Moins de stabilité"
-      ],
-      "revenue_potential": {
-        "commission_rate": "4%",
-        "estimated_monthly_revenue": 5.98,
-        "estimated_yearly_revenue": 71.76,
-        "commission_per_sale": 11.96
-      }
-    },
-    {
-      "asin": "B09HFPV76X",
-      "title": "Secretlab TITAN Evo 2022 Ergonomic Chair",
-      "brand": "Secretlab",
-      "price": 499,
-      "rating": 4.7,
-      "review_count": 3421,
-      "category": "Ergonomic Chairs",
-      "image_url": "https://example.com/secretlab-titan.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09HFPV76X?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Lombaire magnétique",
-        "Accoudoirs 4D",
-        "Mécanisme multi-tilt",
-        "Certification SG+"
-      ],
-      "pros": [
-        "Très confortable",
-        "Qualité premium",
-        "Support lombaire excellent"
-      ],
-      "cons": [
-        "Prix élevé",
-        "Délai de livraison"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 7.48,
-        "estimated_yearly_revenue": 89.82,
-        "commission_per_sale": 14.97
-      }
-    },
-    {
-      "asin": "B08FKWD1T1",
-      "title": "Ergohuman Basic ME7ERG Mesh Chair",
-      "brand": "Ergohuman",
-      "price": 389,
-      "rating": 4.5,
-      "review_count": 1876,
-      "category": "Ergonomic Chairs",
-      "image_url": "https://example.com/ergohuman-basic.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B08FKWD1T1?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Dossier mesh respirant",
-        "Appui-tête réglable",
-        "Accoudoirs 3D",
-        "Lombaire ajustable"
-      ],
-      "pros": [
-        "Bon rapport qualité/prix",
-        "Respirant",
-        "Polyvalent"
-      ],
-      "cons": [
-        "Assise légèrement ferme",
-        "Montage long"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 5.83,
-        "estimated_yearly_revenue": 70.02,
-        "commission_per_sale": 11.67
-      }
-    },
-    {
-      "asin": "B07Z9WQVNV",
-      "title": "HAG Capisco Ergonomic Office Chair",
-      "brand": "HAG",
-      "price": 899,
+      "asin": "B09TD87W1J",
+      "title": "Desktronic Bureau Assis Debout Électrique 160x80cm",
+      "brand": "Desktronic",
+      "price": 464.00,
       "rating": 4.8,
-      "review_count": 567,
+      "review_count": 826,
+      "category": "Standing Desks",
+      "affiliate_url": "https://www.amazon.fr/dp/B09TD87W1J?tag=zeroalc-21",
+      "revenue_potential": {
+        "commission_rate": "3%",
+        "commission_per_sale": 13.92
+      }
+    },
+    {
+      "asin": "B0BGZB6VZM",
+      "title": "CleverSeat Chaise Ergonomique Maille Réglable",
+      "brand": "CleverSeat",
+      "price": 249.00,
+      "rating": 4.6,
+      "review_count": 1250,
       "category": "Ergonomic Chairs",
-      "image_url": "https://example.com/hag-capisco.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B07Z9WQVNV?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Design unique selle de cheval",
-        "Compatible bureaux debout",
-        "Hauteur réglable 47-62cm",
-        "Garantie 10 ans"
-      ],
-      "pros": [
-        "Idéale pour bureau debout",
-        "Posture active",
-        "Longévité excellente"
-      ],
-      "cons": [
-        "Prix très élevé",
-        "Design atypique"
-      ],
+      "affiliate_url": "https://www.amazon.fr/dp/B0BGZB6VZM?tag=zeroalc-21",
       "revenue_potential": {
         "commission_rate": "3%",
-        "estimated_monthly_revenue": 13.48,
-        "estimated_yearly_revenue": 161.82,
-        "commission_per_sale": 26.97
+        "commission_per_sale": 7.47
       }
     },
     {
-      "asin": "B09JGZRXMB",
-      "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
+      "asin": "B0DTQ9SKYF",
+      "title": "LG 27UP850K-W 27\" 4K IPS USB-C 96W",
       "brand": "LG",
-      "price": 449,
+      "price": 273.00,
       "rating": 4.6,
-      "review_count": 4521,
+      "review_count": 1850,
       "category": "Monitors",
-      "image_url": "https://example.com/lg-27uk850.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09JGZRXMB?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "4K UHD IPS",
-        "USB-C 60W",
-        "HDR400",
-        "FreeSync",
-        "Pied réglable"
-      ],
-      "pros": [
-        "Qualité image excellente",
-        "USB-C pratique",
-        "Charge MacBook"
-      ],
-      "cons": [
-        "Pas de 144Hz",
-        "Pied un peu plastique"
-      ],
+      "affiliate_url": "https://www.amazon.fr/dp/B0DTQ9SKYF?tag=zeroalc-21",
+      "revenue_potential": {
+        "commission_rate": "2.5%",
+        "commission_per_sale": 6.83
+      }
+    },
+    {
+      "asin": "B0BHTQRLXS",
+      "title": "Desktronic Bureau Assis Debout Électrique 200x80cm",
+      "brand": "Desktronic",
+      "price": 584.00,
+      "rating": 4.8,
+      "review_count": 826,
+      "category": "Standing Desks",
+      "affiliate_url": "https://www.amazon.fr/dp/B0BHTQRLXS?tag=zeroalc-21",
       "revenue_potential": {
         "commission_rate": "3%",
-        "estimated_monthly_revenue": 6.73,
-        "estimated_yearly_revenue": 80.82,
-        "commission_per_sale": 13.47
+        "commission_per_sale": 17.52
       }
     },
     {
-      "asin": "B09NK5DFGG",
-      "title": "Dell UltraSharp U2722D 27\" QHD",
-      "brand": "Dell",
-      "price": 379,
-      "rating": 4.7,
-      "review_count": 2103,
-      "category": "Monitors",
-      "image_url": "https://example.com/dell-u2722d.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09NK5DFGG?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "QHD 2560x1440",
-        "USB-C 90W",
-        "IPS Anti-éblouissement",
-        "Hub USB intégré"
-      ],
-      "pros": [
-        "Excellent pour le travail",
-        "Dalle IPS parfaite",
-        "Connectivité top"
-      ],
-      "cons": [
-        "Prix",
-        "Pas de 4K"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 5.68,
-        "estimated_yearly_revenue": 68.22,
-        "commission_per_sale": 11.37
-      }
-    },
-    {
-      "asin": "B07QLPVTRZ",
-      "title": "BenQ ScreenBar Halo Monitor Light",
-      "brand": "BenQ",
-      "price": 179.99,
-      "rating": 4.7,
-      "review_count": 8934,
-      "category": "Desk Lamps",
-      "image_url": "https://example.com/benq-screenbar-halo.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B07QLPVTRZ?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Rétroéclairage ambient",
-        "Pas de reflets sur écran",
-        "Commande sans fil",
-        "CCT 2700K-6500K"
-      ],
-      "pros": [
-        "Réduit fatigue oculaire",
-        "Design épuré",
-        "Rétroéclairage excellent"
-      ],
-      "cons": [
-        "Prix élevé pour une lampe",
-        "Fixation spécifique moniteur"
-      ],
-      "revenue_potential": {
-        "commission_rate": "4%",
-        "estimated_monthly_revenue": 3.6,
-        "estimated_yearly_revenue": 43.2,
-        "commission_per_sale": 7.2
-      }
-    },
-    {
-      "asin": "B08DCMKX7C",
-      "title": "Elgato Key Light Air Professional",
+      "asin": "B07L755X9G",
+      "title": "Elgato Key Light — Panneau LED professionnel",
       "brand": "Elgato",
-      "price": 99.99,
-      "rating": 4.5,
-      "review_count": 5672,
+      "price": 199.00,
+      "rating": 4.7,
+      "review_count": 5621,
       "category": "Desk Lamps",
-      "image_url": "https://example.com/elgato-key-light.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B08DCMKX7C?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Contrôle app Stream Deck",
-        "Luminosité 800 lux",
-        "CCT réglable",
-        "Ultra-mince"
-      ],
-      "pros": [
-        "Parfait pour visioconférences",
-        "Contrôle app",
-        "Lumière douce"
-      ],
-      "cons": [
-        "Pas idéal comme lampe de bureau seule",
-        "Fixation bureau obligatoire"
-      ],
+      "affiliate_url": "https://www.amazon.fr/dp/B07L755X9G?tag=zeroalc-21",
       "revenue_potential": {
         "commission_rate": "4%",
-        "estimated_monthly_revenue": 2,
-        "estimated_yearly_revenue": 24,
-        "commission_per_sale": 4
-      }
-    },
-    {
-      "asin": "B08D9GPMDK",
-      "title": "Flexispot E7 Pro Standing Desk 140x70cm",
-      "brand": "Flexispot",
-      "price": 429.99,
-      "rating": 4.6,
-      "review_count": 2847,
-      "category": "Webcams",
-      "image_url": "https://example.com/flexispot-e7.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Moteur double silencieux",
-        "Mémoire 4 positions",
-        "Anti-collision",
-        "10 ans garantie"
-      ],
-      "pros": [
-        "Très stable",
-        "Silencieux",
-        "Solide qualité"
-      ],
-      "cons": [
-        "Prix élevé",
-        "Livraison longue"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 6.45,
-        "estimated_yearly_revenue": 77.4,
-        "commission_per_sale": 12.9
-      }
-    },
-    {
-      "asin": "B09NQKFMF8",
-      "title": "Autonomous SmartDesk Pro 152x76cm",
-      "brand": "Autonomous",
-      "price": 549,
-      "rating": 4.4,
-      "review_count": 1203,
-      "category": "Webcams",
-      "image_url": "https://example.com/autonomous-pro.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "4 options mémoire",
-        "Hauteur 66-128cm",
-        "Surface XL",
-        "Garantie 5 ans"
-      ],
-      "pros": [
-        "Large surface de travail",
-        "Design premium"
-      ],
-      "cons": [
-        "Montage complexe",
-        "Lourd"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 8.23,
-        "estimated_yearly_revenue": 98.82,
-        "commission_per_sale": 16.47
-      }
-    },
-    {
-      "asin": "B094KFHK7N",
-      "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
-      "brand": "IKEA",
-      "price": 299,
-      "rating": 4.2,
-      "review_count": 892,
-      "category": "Webcams",
-      "image_url": "https://example.com/ikea-trotten.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Réglage manuel",
-        "Design épuré",
-        "Compatible accessoires IKEA"
-      ],
-      "pros": [
-        "Prix accessible",
-        "Design scandinave",
-        "Facile à monter"
-      ],
-      "cons": [
-        "Réglage manuel",
-        "Moins de stabilité"
-      ],
-      "revenue_potential": {
-        "commission_rate": "4%",
-        "estimated_monthly_revenue": 5.98,
-        "estimated_yearly_revenue": 71.76,
-        "commission_per_sale": 11.96
-      }
-    },
-    {
-      "asin": "B08D9GPMDK",
-      "title": "Flexispot E7 Pro Standing Desk 140x70cm",
-      "brand": "Flexispot",
-      "price": 429.99,
-      "rating": 4.6,
-      "review_count": 2847,
-      "category": "Headsets",
-      "image_url": "https://example.com/flexispot-e7.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B08D9GPMDK?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Moteur double silencieux",
-        "Mémoire 4 positions",
-        "Anti-collision",
-        "10 ans garantie"
-      ],
-      "pros": [
-        "Très stable",
-        "Silencieux",
-        "Solide qualité"
-      ],
-      "cons": [
-        "Prix élevé",
-        "Livraison longue"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 6.45,
-        "estimated_yearly_revenue": 77.4,
-        "commission_per_sale": 12.9
-      }
-    },
-    {
-      "asin": "B09NQKFMF8",
-      "title": "Autonomous SmartDesk Pro 152x76cm",
-      "brand": "Autonomous",
-      "price": 549,
-      "rating": 4.4,
-      "review_count": 1203,
-      "category": "Headsets",
-      "image_url": "https://example.com/autonomous-pro.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09NQKFMF8?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "4 options mémoire",
-        "Hauteur 66-128cm",
-        "Surface XL",
-        "Garantie 5 ans"
-      ],
-      "pros": [
-        "Large surface de travail",
-        "Design premium"
-      ],
-      "cons": [
-        "Montage complexe",
-        "Lourd"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 8.23,
-        "estimated_yearly_revenue": 98.82,
-        "commission_per_sale": 16.47
-      }
-    },
-    {
-      "asin": "B094KFHK7N",
-      "title": "IKEA TROTTEN Bureau assis-debout 120x70cm",
-      "brand": "IKEA",
-      "price": 299,
-      "rating": 4.2,
-      "review_count": 892,
-      "category": "Headsets",
-      "image_url": "https://example.com/ikea-trotten.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B094KFHK7N?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Réglage manuel",
-        "Design épuré",
-        "Compatible accessoires IKEA"
-      ],
-      "pros": [
-        "Prix accessible",
-        "Design scandinave",
-        "Facile à monter"
-      ],
-      "cons": [
-        "Réglage manuel",
-        "Moins de stabilité"
-      ],
-      "revenue_potential": {
-        "commission_rate": "4%",
-        "estimated_monthly_revenue": 5.98,
-        "estimated_yearly_revenue": 71.76,
-        "commission_per_sale": 11.96
-      }
-    },
-    {
-      "asin": "B07QLPVTRZ",
-      "title": "BenQ ScreenBar Halo Monitor Light",
-      "brand": "BenQ",
-      "price": 179.99,
-      "rating": 4.7,
-      "review_count": 8934,
-      "category": "Desk Accessories",
-      "image_url": "https://example.com/benq-screenbar-halo.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B07QLPVTRZ?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Rétroéclairage ambient",
-        "Pas de reflets sur écran",
-        "Commande sans fil",
-        "CCT 2700K-6500K"
-      ],
-      "pros": [
-        "Réduit fatigue oculaire",
-        "Design épuré",
-        "Rétroéclairage excellent"
-      ],
-      "cons": [
-        "Prix élevé pour une lampe",
-        "Fixation spécifique moniteur"
-      ],
-      "revenue_potential": {
-        "commission_rate": "4%",
-        "estimated_monthly_revenue": 3.6,
-        "estimated_yearly_revenue": 43.2,
-        "commission_per_sale": 7.2
-      }
-    },
-    {
-      "asin": "B08DCMKX7C",
-      "title": "Elgato Key Light Air Professional",
-      "brand": "Elgato",
-      "price": 99.99,
-      "rating": 4.5,
-      "review_count": 5672,
-      "category": "Desk Accessories",
-      "image_url": "https://example.com/elgato-key-light.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B08DCMKX7C?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "Contrôle app Stream Deck",
-        "Luminosité 800 lux",
-        "CCT réglable",
-        "Ultra-mince"
-      ],
-      "pros": [
-        "Parfait pour visioconférences",
-        "Contrôle app",
-        "Lumière douce"
-      ],
-      "cons": [
-        "Pas idéal comme lampe de bureau seule",
-        "Fixation bureau obligatoire"
-      ],
-      "revenue_potential": {
-        "commission_rate": "4%",
-        "estimated_monthly_revenue": 2,
-        "estimated_yearly_revenue": 24,
-        "commission_per_sale": 4
-      }
-    },
-    {
-      "asin": "B09JGZRXMB",
-      "title": "LG 27UK850-W 27\" 4K USB-C Monitor",
-      "brand": "LG",
-      "price": 449,
-      "rating": 4.6,
-      "review_count": 4521,
-      "category": "Monitor Arms",
-      "image_url": "https://example.com/lg-27uk850.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09JGZRXMB?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "4K UHD IPS",
-        "USB-C 60W",
-        "HDR400",
-        "FreeSync",
-        "Pied réglable"
-      ],
-      "pros": [
-        "Qualité image excellente",
-        "USB-C pratique",
-        "Charge MacBook"
-      ],
-      "cons": [
-        "Pas de 144Hz",
-        "Pied un peu plastique"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 6.73,
-        "estimated_yearly_revenue": 80.82,
-        "commission_per_sale": 13.47
-      }
-    },
-    {
-      "asin": "B09NK5DFGG",
-      "title": "Dell UltraSharp U2722D 27\" QHD",
-      "brand": "Dell",
-      "price": 379,
-      "rating": 4.7,
-      "review_count": 2103,
-      "category": "Monitor Arms",
-      "image_url": "https://example.com/dell-u2722d.jpg",
-      "affiliate_url": "https://www.amazon.fr/dp/B09NK5DFGG?tag=YOUR_ASSOCIATE_TAG",
-      "features": [
-        "QHD 2560x1440",
-        "USB-C 90W",
-        "IPS Anti-éblouissement",
-        "Hub USB intégré"
-      ],
-      "pros": [
-        "Excellent pour le travail",
-        "Dalle IPS parfaite",
-        "Connectivité top"
-      ],
-      "cons": [
-        "Prix",
-        "Pas de 4K"
-      ],
-      "revenue_potential": {
-        "commission_rate": "3%",
-        "estimated_monthly_revenue": 5.68,
-        "estimated_yearly_revenue": 68.22,
-        "commission_per_sale": 11.37
+        "commission_per_sale": 7.96
       }
     }
   ],
-  "total": 20
+  "total": 12
 }

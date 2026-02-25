@@ -26,7 +26,12 @@
     "publisher:status": "node agents/publisher/index.js --status",
     "publisher:list-boards": "node agents/publisher/index.js --list-boards",
     "publisher:setup-boards": "node agents/publisher/index.js --setup-boards",
-    "pipeline": "npm run scout && npm run creator && npm run publisher"
+    "pipeline": "npm run scout && npm run creator && npm run publisher",
+    "publish:export": "node agents/publisher/export-manual.js",
+    "publish:export:limit": "node agents/publisher/export-manual.js --limit=10",
+    "publish:webhook": "node agents/publisher/make-webhook.js",
+    "publish:webhook:dry": "node agents/publisher/make-webhook.js --dry-run",
+    "pipeline:export": "npm run scout && npm run creator && npm run publish:export"
   },
   "keywords": [
     "pinterest",

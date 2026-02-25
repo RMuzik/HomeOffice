@@ -1,0 +1,83 @@
+{
+  "_comment": "Blueprint Make.com pour publication automatique Pinterest",
+  "_instructions": [
+    "1. Va sur make.com → Scénarios → Créer un nouveau scénario",
+    "2. Clique sur l'icône ... → Importer Blueprint → colle ce JSON",
+    "3. Clique sur le module Webhooks → Copie l'URL générée",
+    "4. Ajoute dans .env : MAKE_WEBHOOK_URL=<url copiée>",
+    "5. Clique sur le module Pinterest → Connecte ton compte Business",
+    "6. Active le scénario (toggle ON en bas à gauche)",
+    "7. Lance : npm run publish:webhook"
+  ],
+  "name": "HomeOffice → Pinterest Publisher",
+  "flow": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "version": 1,
+      "parameters": {
+        "hook": "homeoffice-pinterest-publisher",
+        "maxResults": 1
+      },
+      "mapper": {},
+      "metadata": {
+        "designer": { "x": 0, "y": 0 },
+        "expect": [
+          { "name": "pin_id",      "type": "text",   "label": "Pin ID" },
+          { "name": "title",       "type": "text",   "label": "Titre (max 100 chars)" },
+          { "name": "description", "type": "text",   "label": "Description (max 500 chars)" },
+          { "name": "alt_text",    "type": "text",   "label": "Alt text" },
+          { "name": "link",        "type": "text",   "label": "URL de destination" },
+          { "name": "board_name",  "type": "text",   "label": "Nom du board Pinterest" },
+          { "name": "image_base64","type": "text",   "label": "Image PNG en base64 (optionnel si image_url défini)" },
+          { "name": "image_url",   "type": "text",   "label": "URL publique de l'image (optionnel)" },
+          { "name": "keyword",     "type": "text",   "label": "Mot-clé principal" },
+          { "name": "type",        "type": "text",   "label": "Type de pin" }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "module": "pinterest:createPin",
+      "version": 1,
+      "parameters": {
+        "connection": "__PINTEREST_CONNECTION__"
+      },
+      "mapper": {
+        "board":       "{{1.board_name}}",
+        "title":       "{{substring(1.title; 0; 100)}}",
+        "description": "{{substring(1.description; 0; 500)}}",
+        "link":        "{{1.link}}",
+        "alt_text":    "{{1.alt_text}}",
+        "media": {
+          "source_type": "{{if(1.image_base64; 'image_base64'; 'image_url')}}",
+          "data":         "{{1.image_base64}}",
+          "url":          "{{1.image_url}}"
+        }
+      },
+      "metadata": {
+        "designer": { "x": 300, "y": 0 }
+      }
+    },
+    {
+      "id": 3,
+      "module": "gateway:WebhookRespond",
+      "version": 1,
+      "parameters": {},
+      "mapper": {
+        "status": 200,
+        "body": "{\"success\": true, \"pinterest_pin_id\": \"{{2.id}}\", \"pin_id\": \"{{1.pin_id}}\"}"
+      },
+      "metadata": {
+        "designer": { "x": 600, "y": 0 }
+      }
+    }
+  ],
+  "metadata": {
+    "instant":      true,
+    "version":      1,
+    "scenario":     { "roundtrips": 1, "maxErrors": 3, "autoCommit": true, "sequential": false },
+    "designer":     { "orphans": [] },
+    "zone":         "eu2.make.com"
+  }
+}

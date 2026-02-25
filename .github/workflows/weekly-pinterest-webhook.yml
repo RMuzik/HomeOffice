@@ -60,7 +60,7 @@ jobs:
 
       - name: 💾 Commit scout results
         run: |
-          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.email "apex-bot@homeofficesetup.net"
           git config --local user.name "APEX Bot"
           git add data/pins-queue.json data/products.json data/logs/ || true
           git diff --staged --quiet || git commit -m "🔍 SCOUT: $(date +%Y-%m-%d) — keywords & products updated"
@@ -102,7 +102,7 @@ jobs:
 
       - name: 💾 Commit generated pins
         run: |
-          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.email "apex-bot@homeofficesetup.net"
           git config --local user.name "APEX Bot"
           git add data/pins-ready.json data/pins-images/ data/logs/ || true
           git diff --staged --quiet || git commit -m "🎨 CREATOR: $(date +%Y-%m-%d) — $(ls data/pins-images/*.png 2>/dev/null | wc -l) pins generated"
@@ -146,7 +146,7 @@ jobs:
       - name: 💾 Push images to HomeOffice-Site
         run: |
           cd HomeOffice-Site
-          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.email "apex-bot@homeofficesetup.net"
           git config --local user.name "APEX Bot"
           git add public/pins/ || true
           if git diff --staged --quiet; then
@@ -218,7 +218,7 @@ jobs:
       - name: 💾 Save publish state
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
-          git config --local user.email "apex-bot@homeofficesetup.pro"
+          git config --local user.email "apex-bot@homeofficesetup.net"
           git config --local user.name "APEX Bot"
           git add data/publish-state.json data/logs/ || true
           git diff --staged --quiet || git commit -m "📌 PUBLISHED: $(date +%Y-%m-%d) — pins Pinterest"
@@ -244,4 +244,4 @@ jobs:
           TOTAL=$(node -e "const s=require('./data/publish-state.json'); console.log(s.stats?.total_published || 0)" 2>/dev/null || echo "?")
           curl -s -X POST "$DISCORD_WEBHOOK" \
             -H "Content-Type: application/json" \
-            -d "{\"content\": \"$EMOJI **Pinterest Publisher** — $(date +%Y-%m-%d)\nStatus: \`$STATUS\`\nTotal publié: **$TOTAL pins**\nBoard: homeofficesetup.pro\"}" || true
+            -d "{\"content\": \"$EMOJI **Pinterest Publisher** — $(date +%Y-%m-%d)\nStatus: \`$STATUS\`\nTotal publié: **$TOTAL pins**\nBoard: homeofficesetup.net\"}" || true

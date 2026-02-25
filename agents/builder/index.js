@@ -78,7 +78,7 @@ function generatePageCode(keyword, products, slug) {
     '@type': 'ListItem',
     position: i + 1,
     name: `${p.brand} ${p.name}`,
-    url: `https://homeofficesetup.pro/${slug}#product-${p.asin}`,
+    url: `https://homeofficesetup.net/${slug}#product-${p.asin}`,
   }));
 
   const productCards = products.map((p, i) => {

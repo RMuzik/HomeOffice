@@ -29,7 +29,7 @@ const DATA_DIR = path.join(__dirname, '../../data');
 // ─── Config ───────────────────────────────────────────────────────────────────
 
 const MAKE_WEBHOOK_URL = process.env.MAKE_WEBHOOK_URL;
-const SITE_URL         = process.env.SITE_URL || 'https://homeofficesetup.pro';
+const SITE_URL         = process.env.SITE_URL || 'https://homeofficesetup.net';
 
 // Délai entre chaque pin (Make.com limite les requêtes entrantes)
 const DELAY_BETWEEN_PINS_MS = 3000; // 3 secondes
@@ -96,7 +96,7 @@ async function sendToMakeWebhook(pin, dryRun = false) {
     image_base64:    null,
     image_url:       buildPublicImageUrl(pin),
     scheduled_at:    pin.scheduled_at || null,
-    source:          'homeofficesetup.pro',
+    source:          'homeofficesetup.net',
   };
 
   if (dryRun) {
@@ -137,7 +137,7 @@ async function sendToMakeWebhook(pin, dryRun = false) {
 function buildPublicImageUrl(pin) {
   if (!pin.pin_id) return null;
   // Les images sont servies depuis le site si déployées
-  // ex: https://homeofficesetup.pro/pins/pin_001.png
+  // ex: https://homeofficesetup.net/pins/pin_001.png
   return `${SITE_URL}/pins/${pin.pin_id}.png`;
 }
 

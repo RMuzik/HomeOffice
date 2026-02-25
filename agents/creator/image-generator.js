@@ -127,7 +127,7 @@ async function generateMockBackground(pinType, keyword) {
       <rect x="200" y="600" width="600" height="400" rx="20" fill="rgba(255,255,255,0.03)" stroke="rgba(88,166,255,0.2)" stroke-width="1"/>
       <text x="500" y="820" font-family="Arial" font-size="80" text-anchor="middle" fill="rgba(88,166,255,0.15)">🖥️</text>
       <!-- Label catégorie -->
-      <text x="500" y="1400" font-family="Arial" font-size="22" text-anchor="middle" fill="rgba(255,255,255,0.3)">homeofficesetup.pro</text>
+      <text x="500" y="1400" font-family="Arial" font-size="22" text-anchor="middle" fill="rgba(255,255,255,0.3)">homeofficesetup.net</text>
     </svg>
   `;
 
@@ -217,7 +217,7 @@ async function composeFinalPin(backgroundBuffer, textContent, options = {}) {
 
       <!-- CTA bottom -->
       <text x="80" y="${H - 60}" font-family="Arial" font-size="20" fill="rgba(255,255,255,0.6)">
-        homeofficesetup.pro →
+        homeofficesetup.net →
       </text>
 
       <!-- Ligne décorative -->

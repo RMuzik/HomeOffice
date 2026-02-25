@@ -158,31 +158,31 @@ function getMockContent(pinType, keyword, product) {
   const templates = {
     'best-of-list': {
       title: `7 Best ${keyword.charAt(0).toUpperCase() + keyword.slice(1)} Products in 2026 🖥️`,
-      description: `Transform your workspace with the best ${keyword} picks for 2026! From ergonomic chairs to standing desks, these editor-tested products will boost your productivity and comfort. ${product ? `Our top pick: ${product.title} at ${product.price}€.` : ''} Check out our full guide → homeofficesetup.pro\n\n#homeoffice #desksetup #workfromhome #productivity #homeofficesetup`,
+      description: `Transform your workspace with the best ${keyword} picks for 2026! From ergonomic chairs to standing desks, these editor-tested products will boost your productivity and comfort. ${product ? `Our top pick: ${product.title} at ${product.price}€.` : ''} Check out our full guide → homeofficesetup.net\n\n#homeoffice #desksetup #workfromhome #productivity #homeofficesetup`,
       alt_text: `Best ${keyword} products 2026 — curated guide`,
       headline_overlay: `7 Best ${keyword.split(' ')[0]} Picks`,
     },
     'setup-showcase': {
       title: `✨ ${keyword.charAt(0).toUpperCase() + keyword.slice(1)} Inspiration — Minimalist & Productive`,
-      description: `Your dream ${keyword} is possible! This minimal, functional setup proves you don't need to break the bank for a gorgeous workspace. Natural light, clean cables, and carefully chosen accessories make all the difference. Find all products linked on homeofficesetup.pro\n\n#homeoffice #desksetup #minimalist #workfromhome #officeinspo`,
+      description: `Your dream ${keyword} is possible! This minimal, functional setup proves you don't need to break the bank for a gorgeous workspace. Natural light, clean cables, and carefully chosen accessories make all the difference. Find all products linked on homeofficesetup.net\n\n#homeoffice #desksetup #minimalist #workfromhome #officeinspo`,
       alt_text: `Aesthetic ${keyword} — minimalist inspiration`,
       headline_overlay: `Your Dream Setup`,
     },
     'product-review': {
       title: `${product?.title?.slice(0, 60) || keyword} — Honest Review 2026 ⭐${product?.rating || 4.5}`,
-      description: `We tested the ${product?.title || keyword} for 3 months. Here's what we found: ✅ Excellent build quality ✅ Easy assembly ✅ Worth every cent. ${product?.price ? `At ${product.price}€` : ''}, it's the best value in its category. Full review → homeofficesetup.pro\n\n#homeoffice #review #desksetup #ergonomic #workfromhome`,
+      description: `We tested the ${product?.title || keyword} for 3 months. Here's what we found: ✅ Excellent build quality ✅ Easy assembly ✅ Worth every cent. ${product?.price ? `At ${product.price}€` : ''}, it's the best value in its category. Full review → homeofficesetup.net\n\n#homeoffice #review #desksetup #ergonomic #workfromhome`,
       alt_text: `${product?.title?.slice(0, 70) || keyword} honest review`,
       headline_overlay: `${product?.rating || 4.5}★ Honest Review`,
     },
     'how-to': {
       title: `5 Ways to Upgrade Your ${keyword.charAt(0).toUpperCase() + keyword.slice(1)} This Week 🚀`,
-      description: `Small changes, big impact! Here are 5 easy upgrades for your ${keyword}: 1) Add a monitor arm for better posture 2) Upgrade your lighting 3) Invest in a quality chair 4) Cable management = zen desk 5) Plants for focus. All products at homeofficesetup.pro\n\n#homeoffice #productivity #desksetup #workfromhome #officetips`,
+      description: `Small changes, big impact! Here are 5 easy upgrades for your ${keyword}: 1) Add a monitor arm for better posture 2) Upgrade your lighting 3) Invest in a quality chair 4) Cable management = zen desk 5) Plants for focus. All products at homeofficesetup.net\n\n#homeoffice #productivity #desksetup #workfromhome #officetips`,
       alt_text: `5 tips to upgrade your ${keyword}`,
       headline_overlay: `5 Easy Upgrades`,
     },
     'budget-guide': {
       title: `Full ${keyword.charAt(0).toUpperCase() + keyword.slice(1)} Under 500€ — Complete Guide 💰`,
-      description: `You don't need thousands to build a productive home office! This complete setup under 500€ includes everything: desk, chair, monitor, and accessories. ${product ? `Starting with the ${product.title} at just ${product.price}€.` : ''} Full shopping list at homeofficesetup.pro\n\n#homeoffice #budgetsetup #workfromhome #desksetup #affordableoffice`,
+      description: `You don't need thousands to build a productive home office! This complete setup under 500€ includes everything: desk, chair, monitor, and accessories. ${product ? `Starting with the ${product.title} at just ${product.price}€.` : ''} Full shopping list at homeofficesetup.net\n\n#homeoffice #budgetsetup #workfromhome #desksetup #affordableoffice`,
       alt_text: `Budget ${keyword} under 500€ complete guide`,
       headline_overlay: `Full Setup Under 500€`,
     }

@@ -74,7 +74,7 @@ function composeFinalPin(pinData, textContent, imagePath, product = null) {
  * Pinterest → page du site → affiliate redirect
  */
 function buildDestinationUrl(pinData, product) {
-  const baseUrl = process.env.SITE_URL || 'https://homeofficesetup.pro';
+  const baseUrl = process.env.SITE_URL || 'https://homeofficesetup.net';
   const keyword = pinData.keyword?.toLowerCase().replace(/\s+/g, '-') || 'home-office';
   const type = pinData.type;
 

@@ -161,7 +161,7 @@ async function exportPins(options = {}) {
   console.log(`  📝 Descriptions : descriptions.txt`);
 
   // ── 4. README instructions ───────────────────────────────────────────────
-  const siteUrl = process.env.SITE_URL || 'https://homeofficesetup.pro';
+  const siteUrl = process.env.SITE_URL || 'https://homeofficesetup.net';
   const readme = `HOMEOFFICESETUP.PRO — Guide de publication Pinterest
 ======================================================
 Export généré le ${today} | ${pins.length} pins

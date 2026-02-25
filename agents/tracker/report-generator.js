@@ -94,7 +94,7 @@ ${JSON.stringify({ week: weekLabel, published: publishedCount, total_impressions
 \`\`\`
 
 ---
-*APEX Bot · homeofficesetup.pro · [GitHub](https://github.com/ton-user/homeoffice-affiliate)*
+*APEX Bot · homeofficesetup.net · [GitHub](https://github.com/ton-user/homeoffice-affiliate)*
 `;
 }
 

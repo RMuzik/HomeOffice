@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-02-27T19:28:05.256Z",
+  "agent": "REVENUE",
+  "version": "1.0.0",
+  "period_weeks": 1,
+  "summary": {
+    "total_keywords": 2,
+    "total_impressions": 1537,
+    "total_revenue_eur": 0,
+    "total_clicks": 22,
+    "avg_rpm": 0,
+    "by_tier": {
+      "S": 0,
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 2
+    },
+    "top3": [
+      {
+        "keyword": "best work from home",
+        "rpm": 0,
+        "tier": "D"
+      },
+      {
+        "keyword": "standing desk setup",
+        "rpm": 0,
+        "tier": "D"
+      }
+    ],
+    "is_mock_data": true
+  },
+  "keywords": [
+    {
+      "keyword": "best work from home",
+      "type": "best-of-list",
+      "board": "setup_ideas",
+      "weeks": 1,
+      "impressions": 825,
+      "saves": 23,
+      "pin_clicks": 35,
+      "outbound_clicks": 12,
+      "estimated_revenue_eur": 0,
+      "pins": [
+        "pin_week1771663008128_d1_1"
+      ],
+      "category": "Desk Accessories",
+      "commission_rate": 0.06,
+      "avg_order_eur": 40,
+      "ctr_pinterest": 1.45,
+      "cvr_site": 0,
+      "revenue_eur": 0,
+      "revenue_per_click": 0,
+      "rpm": 0,
+      "potential_score": 0,
+      "tier": "D",
+      "is_real_data": false
+    },
+    {
+      "keyword": "standing desk setup",
+      "type": "setup-showcase",
+      "board": "ergonomic_office",
+      "weeks": 1,
+      "impressions": 712,
+      "saves": 17,
+      "pin_clicks": 23,
+      "outbound_clicks": 10,
+      "estimated_revenue_eur": 0,
+      "pins": [
+        "pin_week1771663008128_d1_2"
+      ],
+      "category": "Standing Desks",
+      "commission_rate": 0.06,
+      "avg_order_eur": 450,
+      "ctr_pinterest": 1.4,
+      "cvr_site": 0,
+      "revenue_eur": 0,
+      "revenue_per_click": 0,
+      "rpm": 0,
+      "potential_score": 0,
+      "tier": "D",
+      "is_real_data": false
+    }
+  ],
+  "scout_recommendations": {
+    "double_down": [],
+    "test": [],
+    "abandon": [],
+    "new_opportunities": []
+  }
+}

@@ -18,6 +18,7 @@ import {
   deleteObject,
 } from "firebase/storage";
 import { auth, db, storage } from "./firebase.js";
+import PlantAutocomplete from "./components/PlantAutocomplete.jsx";
 
 const ETAGES = ["Plaine", "Collinéen", "Montagnard", "Subalpin", "Alpin", "Nival"];
 const HABITATS = ["Alpage", "Forêt", "Tourbière", "Prairie", "Lande", "Falaise", "Bord d'eau", "Pelouse sèche", "Éboulis", "Sous-bois"];
@@ -566,12 +567,34 @@ export default function Herbier({ user }) {
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
                 <div style={{ gridColumn: "1/-1" }}>
                   <FormField label="Nom commun *">
-                    <input value={form.nom} onChange={e => setForm(f => ({ ...f, nom: e.target.value }))} style={inputStyle} placeholder="ex: Anémone des Alpes" />
+                    <PlantAutocomplete
+                      value={form.nom}
+                      field="n"
+                      onChange={(v) => setForm((f) => ({ ...f, nom: v }))}
+                      onSelect={(p) => setForm((f) => {
+                        const pickFam = FAMILLES.includes(p.f) ? { famille: p.f, familleSaisie: "" }
+                          : p.f ? { famille: "Autre", familleSaisie: p.f }
+                          : {};
+                        return { ...f, nom: p.n || f.nom, nomLatin: p.l || f.nomLatin, ...pickFam };
+                      })}
+                      placeholder="ex: Anémone des Alpes"
+                    />
                   </FormField>
                 </div>
                 <div style={{ gridColumn: "1/-1" }}>
                   <FormField label="Nom latin">
-                    <input value={form.nomLatin} onChange={e => setForm(f => ({ ...f, nomLatin: e.target.value }))} style={inputStyle} placeholder="ex: Anemone alpina" />
+                    <PlantAutocomplete
+                      value={form.nomLatin}
+                      field="l"
+                      onChange={(v) => setForm((f) => ({ ...f, nomLatin: v }))}
+                      onSelect={(p) => setForm((f) => {
+                        const pickFam = FAMILLES.includes(p.f) ? { famille: p.f, familleSaisie: "" }
+                          : p.f ? { famille: "Autre", familleSaisie: p.f }
+                          : {};
+                        return { ...f, nom: p.n || f.nom, nomLatin: p.l || f.nomLatin, ...pickFam };
+                      })}
+                      placeholder="ex: Anemone alpina"
+                    />
                   </FormField>
                 </div>
 
